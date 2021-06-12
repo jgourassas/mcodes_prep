@@ -1,0 +1,159 @@
+mix new mcodes_prep --sup
+
+mix deps.get
+
+mix ecto.gen.repo -r McodesPrep.Repo
+
+
+mix ecto.create
+mix ecto.dump
+The structure for ParseIcd10.Repo has been dumped to priv/repo/structure.sql
+
+
+------
+deletes all
+truncate table icd10pcs_defs restart identity;
+-----
+tree =
+  list
+  |> Enum.reverse
+  |> Enum.reduce(%{}, fn foo, map ->
+    foo = %{foo | children: Map.get(map, foo.id, [])}
+    Map.update(map, foo.parent_id, [foo], fn foos -> [foo | foos] end)
+  end)
+  |> Map.get(nil)
+  |> hd
+
+XML File should be downloaded from
+
+-> http://www.cms.gov/Medicare/Coding/ICD10/index.html
+Don't download the International ICD10 from WHO
+
+
+This software is about the ICD-10-CM of  United States’
+clinical modification of the World Health Organization’s ICD-10
+
+=== Some Notes on Structure Of Codes===============
+--- ICD-10-CM STRUCTURE (copied from Coding Review. Patricia Schnering..)--
+ There are 3–7 digits;
+    Digit 1 is alpha;
+    Digit 2 is numeric;
+    Digits 3–7 are alpha or numeric
+     (alpha characters are not case sensitive);
+     and a decimal is used after the third character
+
+
+Excludes 1
+  Indicates that the code excluded should never be used with the code
+  where the note is located (do not report both codes)
+  Example:
+    Q03 – Congenital hydrocephalus.
+       Excludes 1: Acquired hydrocephalus (G91.-). 
+
+Excludes 2
+  Indicates that the condition excluded is not part of the condition represented by the
+  code, but a patient may have both conditions at the same time, in which case both
+  codes may be assigned together (both codes can be reported to capture both
+  conditions)
+   Example:
+      L27.2 – Dermatitis due to ingested food.
+      Excludes 2: Dermatitis due to food in contact with skin (L23.6, L24.6, L25.4). 
+
+--- ICD-10-PCS STRUCTURE
+
+    Has a seven-character, alphanumeric code structure.
+    Each character contains up to 34 possible values.
+    Each value represents a specific option for the general character definition
+    (e.g., stomach is one of the values for the body part character).
+    The ten digits 0–9 and the 24 letters A–H, J–N, and P–Z may be used in each character.
+    The letters O and I are not used in order to avoid confusion with the digits 0 and 1.
+
+   Sections: Indentify the general type of procedure
+                 0 Medical and Surgical
+                 1 Obstetrics
+                 ............
+                 H Subtance Abuse Treatment
+
+   The second through seventh characters mean the same thing within each section,
+   but may mean different things in other sections.
+   In all sections, the third character specifies the general type of procedure performed
+   (e.g., resection, transfusion, fluoroscopy), while the other characters give
+   additional information such as the body part and approach.
+   In ICD-10-PCS, the term “procedure” refers to the complete specification of the seven characters. 
+
+ An Example
+
+  Character Specification of the Medical and Surgical Section of ICD-10-PCS
+
+  0DBJ3ZZ = Excision of Appendix, Percutaneous Approach
+
+  Character General Meaning  In code 0DBJ3ZZ          Meaning for code 0DBJ3ZZ 
+
+  First     Section          0                        Medical and Surgical
+  Second    Body System      D                        Gastrointestinal 
+  Third     Root Operation   B                        Excision 
+  Fourth    Body Part        J                        Appendix 
+  Fifth     Approach         3                        Percutaneous Approach 
+  Sixth     Device           Z                        No Device 
+  Seventh   Qualifier        Z                        No Qualifier 
+
+
+Command to create the Icd10cm
+
+mix new parse_icd10 --sup
+
+mix ecto.dump
+The structure for ParseIcd10.Repo has been dumped to priv/repo/structure.sql
+-----------
+mix ecto.gen.repo Icd10cm icd10cm order_number:integer icd10cm_code:string icd10cm_code_2:string icd10cm_code_2_ltree:string  is_header:string  short_description:string  long_description:string includes:text inclusionterm:text excludes1:text excludes2:text codefirst:text codealso:text  useadditionalcode:text chapter_name:integer  chapter_description:text section_id:string  section_description:text is_category:string is_subcategory:string --no-migration
+
+mix ecto.gen.migration create_table_icd10pcs
+To generate the model HOW TO ???
+Done by hand
+Icd10pcs icd10pcs order_number:integer icd10pcs_code:string is_header:string short_description:string long_description:string icd10pcs_code_2_ltree:string section:string section_title:string body_system:string body_system_title:string root_operation:string root_operation_title:string body_part:string body_part_title:string approach:string approach_title:string device:string device_title:string qualifier:string qualifier_title:string --no-migration
+
+
+
+
+ ####################
+ Prototype for migrations
+ Mock file
+ Create a lib/race.ex file.
+
+defmodule Racebook.Race do
+  use Ecto.Schema
+
+  schema "races" do
+    field :name, :string
+    field :rating, :integer, default: 6
+    timestamps
+  end
+end
+
+############CALCULATE TIME
+
+{time, solution} = :timer.tc(fn -> ProjectEuler.Problem4a.solve end)
+IO.puts solution
+IO.puts "#{time / 1000} ms"
+######################
+  def get_xml_term(code, term) do
+    #$query = "//diag[name='$code']/$term";
+    inclusionterm  = xml_file()  |> xpath(~x"//diag[name=\"#{code}\"]/inclusionTerm/note/text()"ol )
+    includes   = xml_file()  |> xpath(~x"//diag[name=\"#{code}\"]/includes/note/text()"ol )
+    excludes1  = xml_file()  |> xpath(~x"//diag[name=\"#{code}\"]/excludes1/note/text()"ol )
+    excludes2  = xml_file()  |> xpath(~x"//diag[name=\"#{code}\"]/excludes2/note/text()"ol )
+    codefirst  = xml_file()  |> xpath(~x"//diag[name=\"#{code}\"]/codeFirst/note/text()"ol )
+    codealso = xml_file()  |> xpath(~x"//diag[name=\"#{code}\"]/codeAlso/note/text()"ol )
+    useadditionalcode = xml_file()  |> xpath(~x"//diag[name=\"#{code}\"]/useAdditionalCode/note/text()"ol )
+    #results = xml_file()  |> xpath(~x"//diag[name=\"#{code}\"]/#{term}/note/text()"ol )
+
+  end
+
+ # update icd10pcs set section_title = null, body_system_title = null, root_operation_title = null, body_part_title = null, approach_title = null, device_title = null, qualifier_title = null;
+    # update icd10pcs set section = null, body_system = null, root_operation = null, body_part = null, approach = null,
+    # device =null, qualifier = null;
+
+N.B I'm by no means an expert on elixir.
+I wrote this to become more familiar with the language
+
+  Enjoy Profit!!  Old John  G. (M.D)

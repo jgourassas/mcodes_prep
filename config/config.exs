@@ -9,4 +9,7 @@ config :mcodes_prep, McodesPrep.Repo,
   config :mcodes_prep,
       ecto_repos: [McodesPrep.Repo]
 
+config :elixir, ansi_enabled: true
+config :logger, level: :warn
+
 

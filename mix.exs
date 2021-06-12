@@ -20,7 +20,12 @@ def escript() do
   # Run "mix help compile.app" to learn about applications.
   def application do
     [
-      extra_applications: [:logger],
+      extra_applications: [:logger,
+      :postgrex, 
+      :ecto, 
+      :sweet_xml, 
+      :iteraptor
+      ],
       mod: {McodesPrep.Application, []}
     ]
   end
@@ -35,6 +40,7 @@ def escript() do
        {:iteraptor, "~> 1.13.1", overide: true},
      # {:sweet_xml,  git: "https://github.com/awetzel/sweet_xml.git"},
       {:sweet_xml, "~> 0.6.6"},
+      {:jason, "~> 1.2"},
       {:poison, "~> 4.0.1"},
       {:bunt, "~> 0.2.0"}
 

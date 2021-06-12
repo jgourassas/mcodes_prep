@@ -1,0 +1,609 @@
+Add:         00H001Z Insertion of Radioactive Element into Brain, Open Approach   Insertion of Radioactive Element into Brain, Open Approach
+Add:         00H031Z Insertion of Radioactive Element into Brain, Perc Approach   Insertion of Radioactive Element into Brain, Percutaneous Approach
+Add:         00H041Z Insertion of Radioact Elem into Brain, Perc Endo Approach    Insertion of Radioactive Element into Brain, Percutaneous Endoscopic Approach
+Add:         00H601Z Insertion of Radioact Elem into Cereb Vent, Open Approach    Insertion of Radioactive Element into Cerebral Ventricle, Open Approach
+Add:         00H631Z Insertion of Radioact Elem into Cereb Vent, Perc Approach    Insertion of Radioactive Element into Cerebral Ventricle, Percutaneous Approach
+Add:         00H641Z Insert of Radioact Elem into Cereb Vent, Perc Endo Approach  Insertion of Radioactive Element into Cerebral Ventricle, Percutaneous Endoscopic Approach
+Add:         00HE01Z Insertion of Radioact Elem into Cranial Nrv, Open Approach   Insertion of Radioactive Element into Cranial Nerve, Open Approach
+Add:         00HE31Z Insertion of Radioact Elem into Cranial Nrv, Perc Approach   Insertion of Radioactive Element into Cranial Nerve, Percutaneous Approach
+Add:         00HE41Z Insert of Radioact Elem into Cranial Nrv, Perc Endo Approach Insertion of Radioactive Element into Cranial Nerve, Percutaneous Endoscopic Approach
+Add:         00HU01Z Insertion of Radioact Elem into Spinal Canal, Open Approach  Insertion of Radioactive Element into Spinal Canal, Open Approach
+Add:         00HU31Z Insertion of Radioact Elem into Spinal Canal, Perc Approach  Insertion of Radioactive Element into Spinal Canal, Percutaneous Approach
+Add:         00HU41Z Insert Radioact Elem in Spinal Canal, Perc Endo              Insertion of Radioactive Element into Spinal Canal, Percutaneous Endoscopic Approach
+Add:         00HV01Z Insertion of Radioact Elem into Spinal Cord, Open Approach   Insertion of Radioactive Element into Spinal Cord, Open Approach
+Add:         00HV31Z Insertion of Radioact Elem into Spinal Cord, Perc Approach   Insertion of Radioactive Element into Spinal Cord, Percutaneous Approach
+Add:         00HV41Z Insert of Radioact Elem into Spinal Cord, Perc Endo Approach Insertion of Radioactive Element into Spinal Cord, Percutaneous Endoscopic Approach
+Add:         01HY01Z Insertion of Radioact Elem into Periph Nrv, Open Approach    Insertion of Radioactive Element into Peripheral Nerve, Open Approach
+Add:         01HY31Z Insertion of Radioact Elem into Periph Nrv, Perc Approach    Insertion of Radioactive Element into Peripheral Nerve, Percutaneous Approach
+Add:         01HY41Z Insert of Radioact Elem into Periph Nrv, Perc Endo Approach  Insertion of Radioactive Element into Peripheral Nerve, Percutaneous Endoscopic Approach
+Add:         02173J6 Bypass Left Atrium to R Atrium with Synth Sub, Perc Approach Bypass Left Atrium to Right Atrium with Synthetic Substitute, Percutaneous Approach
+Add:         02FP3Z0 Fragmentation of Pulmonary Trunk, Percutaneous Approach, US  Fragmentation of Pulmonary Trunk, Percutaneous Approach, Ultrasonic
+Add:         02FP3ZZ Fragmentation of Pulmonary Trunk, Percutaneous Approach      Fragmentation of Pulmonary Trunk, Percutaneous Approach
+Add:         02FQ3Z0 Fragmentation of Right Pulmonary Artery, Perc Approach, US   Fragmentation of Right Pulmonary Artery, Percutaneous Approach, Ultrasonic
+Add:         02FQ3ZZ Fragmentation of Right Pulmonary Artery, Perc Approach       Fragmentation of Right Pulmonary Artery, Percutaneous Approach
+Add:         02FR3Z0 Fragmentation of Left Pulmonary Artery, Perc Approach, US    Fragmentation of Left Pulmonary Artery, Percutaneous Approach, Ultrasonic
+Add:         02FR3ZZ Fragmentation of Left Pulmonary Artery, Perc Approach        Fragmentation of Left Pulmonary Artery, Percutaneous Approach
+Add:         02FS3Z0 Fragmentation of Right Pulmonary Vein, Perc Approach, US     Fragmentation of Right Pulmonary Vein, Percutaneous Approach, Ultrasonic
+Add:         02FS3ZZ Fragmentation of Right Pulmonary Vein, Percutaneous Approach Fragmentation of Right Pulmonary Vein, Percutaneous Approach
+Add:         02FT3Z0 Fragmentation of Left Pulmonary Vein, Perc Approach, US      Fragmentation of Left Pulmonary Vein, Percutaneous Approach, Ultrasonic
+Add:         02FT3ZZ Fragmentation of Left Pulmonary Vein, Percutaneous Approach  Fragmentation of Left Pulmonary Vein, Percutaneous Approach
+Add:         02UG3JH Supplement Mitral Valve w Synth Sub, Transap, Perc           Supplement Mitral Valve with Synthetic Substitute, Transapical, Percutaneous Approach
+Add:         03F     Upper Arteries, Fragmentation                                Upper Arteries, Fragmentation
+Add:         03F23Z0 Fragmentation of Innominate Artery, Perc Approach, US        Fragmentation of Innominate Artery, Percutaneous Approach, Ultrasonic
+Add:         03F23ZZ Fragmentation of Innominate Artery, Percutaneous Approach    Fragmentation of Innominate Artery, Percutaneous Approach
+Add:         03F33Z0 Fragmentation of Right Subclavian Artery, Perc Approach, US  Fragmentation of Right Subclavian Artery, Percutaneous Approach, Ultrasonic
+Add:         03F33ZZ Fragmentation of Right Subclavian Artery, Perc Approach      Fragmentation of Right Subclavian Artery, Percutaneous Approach
+Add:         03F43Z0 Fragmentation of Left Subclavian Artery, Perc Approach, US   Fragmentation of Left Subclavian Artery, Percutaneous Approach, Ultrasonic
+Add:         03F43ZZ Fragmentation of Left Subclavian Artery, Perc Approach       Fragmentation of Left Subclavian Artery, Percutaneous Approach
+Add:         03F53Z0 Fragmentation of Right Axillary Artery, Perc Approach, US    Fragmentation of Right Axillary Artery, Percutaneous Approach, Ultrasonic
+Add:         03F53ZZ Fragmentation of Right Axillary Artery, Perc Approach        Fragmentation of Right Axillary Artery, Percutaneous Approach
+Add:         03F63Z0 Fragmentation of Left Axillary Artery, Perc Approach, US     Fragmentation of Left Axillary Artery, Percutaneous Approach, Ultrasonic
+Add:         03F63ZZ Fragmentation of Left Axillary Artery, Percutaneous Approach Fragmentation of Left Axillary Artery, Percutaneous Approach
+Add:         03F73Z0 Fragmentation of Right Brachial Artery, Perc Approach, US    Fragmentation of Right Brachial Artery, Percutaneous Approach, Ultrasonic
+Add:         03F73ZZ Fragmentation of Right Brachial Artery, Perc Approach        Fragmentation of Right Brachial Artery, Percutaneous Approach
+Add:         03F83Z0 Fragmentation of Left Brachial Artery, Perc Approach, US     Fragmentation of Left Brachial Artery, Percutaneous Approach, Ultrasonic
+Add:         03F83ZZ Fragmentation of Left Brachial Artery, Percutaneous Approach Fragmentation of Left Brachial Artery, Percutaneous Approach
+Add:         03F93Z0 Fragmentation of Right Ulnar Artery, Perc Approach, US       Fragmentation of Right Ulnar Artery, Percutaneous Approach, Ultrasonic
+Add:         03F93ZZ Fragmentation of Right Ulnar Artery, Percutaneous Approach   Fragmentation of Right Ulnar Artery, Percutaneous Approach
+Add:         03FA3Z0 Fragmentation of Left Ulnar Artery, Perc Approach, US        Fragmentation of Left Ulnar Artery, Percutaneous Approach, Ultrasonic
+Add:         03FA3ZZ Fragmentation of Left Ulnar Artery, Percutaneous Approach    Fragmentation of Left Ulnar Artery, Percutaneous Approach
+Add:         03FB3Z0 Fragmentation of Right Radial Artery, Perc Approach, US      Fragmentation of Right Radial Artery, Percutaneous Approach, Ultrasonic
+Add:         03FB3ZZ Fragmentation of Right Radial Artery, Percutaneous Approach  Fragmentation of Right Radial Artery, Percutaneous Approach
+Add:         03FC3Z0 Fragmentation of Left Radial Artery, Perc Approach, US       Fragmentation of Left Radial Artery, Percutaneous Approach, Ultrasonic
+Add:         03FC3ZZ Fragmentation of Left Radial Artery, Percutaneous Approach   Fragmentation of Left Radial Artery, Percutaneous Approach
+Add:         03FY3Z0 Fragmentation of Upper Artery, Percutaneous Approach, US     Fragmentation of Upper Artery, Percutaneous Approach, Ultrasonic
+Add:         03FY3ZZ Fragmentation of Upper Artery, Percutaneous Approach         Fragmentation of Upper Artery, Percutaneous Approach
+Add:         04F     Lower Arteries, Fragmentation                                Lower Arteries, Fragmentation
+Add:         04FC3Z0 Fragmentation of R Com Iliac Art, Perc Approach, US          Fragmentation of Right Common Iliac Artery, Percutaneous Approach, Ultrasonic
+Add:         04FC3ZZ Fragmentation of Right Common Iliac Artery, Perc Approach    Fragmentation of Right Common Iliac Artery, Percutaneous Approach
+Add:         04FD3Z0 Fragmentation of Left Common Iliac Artery, Perc Approach, US Fragmentation of Left Common Iliac Artery, Percutaneous Approach, Ultrasonic
+Add:         04FD3ZZ Fragmentation of Left Common Iliac Artery, Perc Approach     Fragmentation of Left Common Iliac Artery, Percutaneous Approach
+Add:         04FE3Z0 Fragmentation of R Int Iliac Art, Perc Approach, US          Fragmentation of Right Internal Iliac Artery, Percutaneous Approach, Ultrasonic
+Add:         04FE3ZZ Fragmentation of Right Internal Iliac Artery, Perc Approach  Fragmentation of Right Internal Iliac Artery, Percutaneous Approach
+Add:         04FF3Z0 Fragmentation of L Int Iliac Art, Perc Approach, US          Fragmentation of Left Internal Iliac Artery, Percutaneous Approach, Ultrasonic
+Add:         04FF3ZZ Fragmentation of Left Internal Iliac Artery, Perc Approach   Fragmentation of Left Internal Iliac Artery, Percutaneous Approach
+Add:         04FH3Z0 Fragmentation of R Ext Iliac Art, Perc Approach, US          Fragmentation of Right External Iliac Artery, Percutaneous Approach, Ultrasonic
+Add:         04FH3ZZ Fragmentation of Right External Iliac Artery, Perc Approach  Fragmentation of Right External Iliac Artery, Percutaneous Approach
+Add:         04FJ3Z0 Fragmentation of L Ext Iliac Art, Perc Approach, US          Fragmentation of Left External Iliac Artery, Percutaneous Approach, Ultrasonic
+Add:         04FJ3ZZ Fragmentation of Left External Iliac Artery, Perc Approach   Fragmentation of Left External Iliac Artery, Percutaneous Approach
+Add:         04FK3Z0 Fragmentation of Right Femoral Artery, Perc Approach, US     Fragmentation of Right Femoral Artery, Percutaneous Approach, Ultrasonic
+Add:         04FK3ZZ Fragmentation of Right Femoral Artery, Percutaneous Approach Fragmentation of Right Femoral Artery, Percutaneous Approach
+Add:         04FL3Z0 Fragmentation of Left Femoral Artery, Perc Approach, US      Fragmentation of Left Femoral Artery, Percutaneous Approach, Ultrasonic
+Add:         04FL3ZZ Fragmentation of Left Femoral Artery, Percutaneous Approach  Fragmentation of Left Femoral Artery, Percutaneous Approach
+Add:         04FM3Z0 Fragmentation of Right Popliteal Artery, Perc Approach, US   Fragmentation of Right Popliteal Artery, Percutaneous Approach, Ultrasonic
+Add:         04FM3ZZ Fragmentation of Right Popliteal Artery, Perc Approach       Fragmentation of Right Popliteal Artery, Percutaneous Approach
+Add:         04FN3Z0 Fragmentation of Left Popliteal Artery, Perc Approach, US    Fragmentation of Left Popliteal Artery, Percutaneous Approach, Ultrasonic
+Add:         04FN3ZZ Fragmentation of Left Popliteal Artery, Perc Approach        Fragmentation of Left Popliteal Artery, Percutaneous Approach
+Add:         04FP3Z0 Fragmentation of R Ant Tib Art, Perc Approach, US            Fragmentation of Right Anterior Tibial Artery, Percutaneous Approach, Ultrasonic
+Add:         04FP3ZZ Fragmentation of Right Anterior Tibial Artery, Perc Approach Fragmentation of Right Anterior Tibial Artery, Percutaneous Approach
+Add:         04FQ3Z0 Fragmentation of L Ant Tib Art, Perc Approach, US            Fragmentation of Left Anterior Tibial Artery, Percutaneous Approach, Ultrasonic
+Add:         04FQ3ZZ Fragmentation of Left Anterior Tibial Artery, Perc Approach  Fragmentation of Left Anterior Tibial Artery, Percutaneous Approach
+Add:         04FR3Z0 Fragmentation of R Post Tib Art, Perc Approach, US           Fragmentation of Right Posterior Tibial Artery, Percutaneous Approach, Ultrasonic
+Add:         04FR3ZZ Fragmentation of R Post Tib Art, Perc Approach               Fragmentation of Right Posterior Tibial Artery, Percutaneous Approach
+Add:         04FS3Z0 Fragmentation of L Post Tib Art, Perc Approach, US           Fragmentation of Left Posterior Tibial Artery, Percutaneous Approach, Ultrasonic
+Add:         04FS3ZZ Fragmentation of Left Posterior Tibial Artery, Perc Approach Fragmentation of Left Posterior Tibial Artery, Percutaneous Approach
+Add:         04FT3Z0 Fragmentation of Right Peroneal Artery, Perc Approach, US    Fragmentation of Right Peroneal Artery, Percutaneous Approach, Ultrasonic
+Add:         04FT3ZZ Fragmentation of Right Peroneal Artery, Perc Approach        Fragmentation of Right Peroneal Artery, Percutaneous Approach
+Add:         04FU3Z0 Fragmentation of Left Peroneal Artery, Perc Approach, US     Fragmentation of Left Peroneal Artery, Percutaneous Approach, Ultrasonic
+Add:         04FU3ZZ Fragmentation of Left Peroneal Artery, Percutaneous Approach Fragmentation of Left Peroneal Artery, Percutaneous Approach
+Add:         04FY3Z0 Fragmentation of Lower Artery, Percutaneous Approach, US     Fragmentation of Lower Artery, Percutaneous Approach, Ultrasonic
+Add:         04FY3ZZ Fragmentation of Lower Artery, Percutaneous Approach         Fragmentation of Lower Artery, Percutaneous Approach
+Add:         05F     Upper Veins, Fragmentation                                   Upper Veins, Fragmentation
+Add:         05F33Z0 Fragmentation of Right Innominate Vein, Perc Approach, US    Fragmentation of Right Innominate Vein, Percutaneous Approach, Ultrasonic
+Add:         05F33ZZ Fragmentation of Right Innominate Vein, Perc Approach        Fragmentation of Right Innominate Vein, Percutaneous Approach
+Add:         05F43Z0 Fragmentation of Left Innominate Vein, Perc Approach, US     Fragmentation of Left Innominate Vein, Percutaneous Approach, Ultrasonic
+Add:         05F43ZZ Fragmentation of Left Innominate Vein, Percutaneous Approach Fragmentation of Left Innominate Vein, Percutaneous Approach
+Add:         05F53Z0 Fragmentation of Right Subclavian Vein, Perc Approach, US    Fragmentation of Right Subclavian Vein, Percutaneous Approach, Ultrasonic
+Add:         05F53ZZ Fragmentation of Right Subclavian Vein, Perc Approach        Fragmentation of Right Subclavian Vein, Percutaneous Approach
+Add:         05F63Z0 Fragmentation of Left Subclavian Vein, Perc Approach, US     Fragmentation of Left Subclavian Vein, Percutaneous Approach, Ultrasonic
+Add:         05F63ZZ Fragmentation of Left Subclavian Vein, Percutaneous Approach Fragmentation of Left Subclavian Vein, Percutaneous Approach
+Add:         05F73Z0 Fragmentation of Right Axillary Vein, Perc Approach, US      Fragmentation of Right Axillary Vein, Percutaneous Approach, Ultrasonic
+Add:         05F73ZZ Fragmentation of Right Axillary Vein, Percutaneous Approach  Fragmentation of Right Axillary Vein, Percutaneous Approach
+Add:         05F83Z0 Fragmentation of Left Axillary Vein, Perc Approach, US       Fragmentation of Left Axillary Vein, Percutaneous Approach, Ultrasonic
+Add:         05F83ZZ Fragmentation of Left Axillary Vein, Percutaneous Approach   Fragmentation of Left Axillary Vein, Percutaneous Approach
+Add:         05F93Z0 Fragmentation of Right Brachial Vein, Perc Approach, US      Fragmentation of Right Brachial Vein, Percutaneous Approach, Ultrasonic
+Add:         05F93ZZ Fragmentation of Right Brachial Vein, Percutaneous Approach  Fragmentation of Right Brachial Vein, Percutaneous Approach
+Add:         05FA3Z0 Fragmentation of Left Brachial Vein, Perc Approach, US       Fragmentation of Left Brachial Vein, Percutaneous Approach, Ultrasonic
+Add:         05FA3ZZ Fragmentation of Left Brachial Vein, Percutaneous Approach   Fragmentation of Left Brachial Vein, Percutaneous Approach
+Add:         05FB3Z0 Fragmentation of Right Basilic Vein, Perc Approach, US       Fragmentation of Right Basilic Vein, Percutaneous Approach, Ultrasonic
+Add:         05FB3ZZ Fragmentation of Right Basilic Vein, Percutaneous Approach   Fragmentation of Right Basilic Vein, Percutaneous Approach
+Add:         05FC3Z0 Fragmentation of Left Basilic Vein, Perc Approach, US        Fragmentation of Left Basilic Vein, Percutaneous Approach, Ultrasonic
+Add:         05FC3ZZ Fragmentation of Left Basilic Vein, Percutaneous Approach    Fragmentation of Left Basilic Vein, Percutaneous Approach
+Add:         05FD3Z0 Fragmentation of Right Cephalic Vein, Perc Approach, US      Fragmentation of Right Cephalic Vein, Percutaneous Approach, Ultrasonic
+Add:         05FD3ZZ Fragmentation of Right Cephalic Vein, Percutaneous Approach  Fragmentation of Right Cephalic Vein, Percutaneous Approach
+Add:         05FF3Z0 Fragmentation of Left Cephalic Vein, Perc Approach, US       Fragmentation of Left Cephalic Vein, Percutaneous Approach, Ultrasonic
+Add:         05FF3ZZ Fragmentation of Left Cephalic Vein, Percutaneous Approach   Fragmentation of Left Cephalic Vein, Percutaneous Approach
+Add:         05FY3Z0 Fragmentation of Upper Vein, Percutaneous Approach, US       Fragmentation of Upper Vein, Percutaneous Approach, Ultrasonic
+Add:         05FY3ZZ Fragmentation of Upper Vein, Percutaneous Approach           Fragmentation of Upper Vein, Percutaneous Approach
+Add:         06F     Lower Veins, Fragmentation                                   Lower Veins, Fragmentation
+Add:         06FC3Z0 Fragmentation of Right Common Iliac Vein, Perc Approach, US  Fragmentation of Right Common Iliac Vein, Percutaneous Approach, Ultrasonic
+Add:         06FC3ZZ Fragmentation of Right Common Iliac Vein, Perc Approach      Fragmentation of Right Common Iliac Vein, Percutaneous Approach
+Add:         06FD3Z0 Fragmentation of Left Common Iliac Vein, Perc Approach, US   Fragmentation of Left Common Iliac Vein, Percutaneous Approach, Ultrasonic
+Add:         06FD3ZZ Fragmentation of Left Common Iliac Vein, Perc Approach       Fragmentation of Left Common Iliac Vein, Percutaneous Approach
+Add:         06FF3Z0 Fragmentation of R Ext Iliac Vein, Perc Approach, US         Fragmentation of Right External Iliac Vein, Percutaneous Approach, Ultrasonic
+Add:         06FF3ZZ Fragmentation of Right External Iliac Vein, Perc Approach    Fragmentation of Right External Iliac Vein, Percutaneous Approach
+Add:         06FG3Z0 Fragmentation of Left External Iliac Vein, Perc Approach, US Fragmentation of Left External Iliac Vein, Percutaneous Approach, Ultrasonic
+Add:         06FG3ZZ Fragmentation of Left External Iliac Vein, Perc Approach     Fragmentation of Left External Iliac Vein, Percutaneous Approach
+Add:         06FH3Z0 Fragmentation of Right Hypogastric Vein, Perc Approach, US   Fragmentation of Right Hypogastric Vein, Percutaneous Approach, Ultrasonic
+Add:         06FH3ZZ Fragmentation of Right Hypogastric Vein, Perc Approach       Fragmentation of Right Hypogastric Vein, Percutaneous Approach
+Add:         06FJ3Z0 Fragmentation of Left Hypogastric Vein, Perc Approach, US    Fragmentation of Left Hypogastric Vein, Percutaneous Approach, Ultrasonic
+Add:         06FJ3ZZ Fragmentation of Left Hypogastric Vein, Perc Approach        Fragmentation of Left Hypogastric Vein, Percutaneous Approach
+Add:         06FM3Z0 Fragmentation of Right Femoral Vein, Perc Approach, US       Fragmentation of Right Femoral Vein, Percutaneous Approach, Ultrasonic
+Add:         06FM3ZZ Fragmentation of Right Femoral Vein, Percutaneous Approach   Fragmentation of Right Femoral Vein, Percutaneous Approach
+Add:         06FN3Z0 Fragmentation of Left Femoral Vein, Perc Approach, US        Fragmentation of Left Femoral Vein, Percutaneous Approach, Ultrasonic
+Add:         06FN3ZZ Fragmentation of Left Femoral Vein, Percutaneous Approach    Fragmentation of Left Femoral Vein, Percutaneous Approach
+Add:         06FP3Z0 Fragmentation of Right Saphenous Vein, Perc Approach, US     Fragmentation of Right Saphenous Vein, Percutaneous Approach, Ultrasonic
+Add:         06FP3ZZ Fragmentation of Right Saphenous Vein, Percutaneous Approach Fragmentation of Right Saphenous Vein, Percutaneous Approach
+Add:         06FQ3Z0 Fragmentation of Left Saphenous Vein, Perc Approach, US      Fragmentation of Left Saphenous Vein, Percutaneous Approach, Ultrasonic
+Add:         06FQ3ZZ Fragmentation of Left Saphenous Vein, Percutaneous Approach  Fragmentation of Left Saphenous Vein, Percutaneous Approach
+Add:         06FY3Z0 Fragmentation of Lower Vein, Percutaneous Approach, US       Fragmentation of Lower Vein, Percutaneous Approach, Ultrasonic
+Add:         06FY3ZZ Fragmentation of Lower Vein, Percutaneous Approach           Fragmentation of Lower Vein, Percutaneous Approach
+Add:         07HK01Z Insertion of Radioact Elem into Thoracic Duct, Open Approach Insertion of Radioactive Element into Thoracic Duct, Open Approach
+Add:         07HK31Z Insertion of Radioact Elem into Thoracic Duct, Perc Approach Insertion of Radioactive Element into Thoracic Duct, Percutaneous Approach
+Add:         07HK41Z Insert Radioact Elem in Thoracic Duct, Perc Endo             Insertion of Radioactive Element into Thoracic Duct, Percutaneous Endoscopic Approach
+Add:         07HL01Z Insert of Radioact Elem into Cisterna Chyli, Open Approach   Insertion of Radioactive Element into Cisterna Chyli, Open Approach
+Add:         07HL31Z Insert of Radioact Elem into Cisterna Chyli, Perc Approach   Insertion of Radioactive Element into Cisterna Chyli, Percutaneous Approach
+Add:         07HL41Z Insert Radioact Elem in Cisterna Chyli, Perc Endo            Insertion of Radioactive Element into Cisterna Chyli, Percutaneous Endoscopic Approach
+Add:         07HM01Z Insertion of Radioactive Element into Thymus, Open Approach  Insertion of Radioactive Element into Thymus, Open Approach
+Add:         07HM31Z Insertion of Radioactive Element into Thymus, Perc Approach  Insertion of Radioactive Element into Thymus, Percutaneous Approach
+Add:         07HM41Z Insertion of Radioact Elem into Thymus, Perc Endo Approach   Insertion of Radioactive Element into Thymus, Percutaneous Endoscopic Approach
+Add:         07HN01Z Insertion of Radioactive Element into Lymph, Open Approach   Insertion of Radioactive Element into Lymphatic, Open Approach
+Add:         07HN31Z Insertion of Radioactive Element into Lymph, Perc Approach   Insertion of Radioactive Element into Lymphatic, Percutaneous Approach
+Add:         07HN41Z Insertion of Radioact Elem into Lymph, Perc Endo Approach    Insertion of Radioactive Element into Lymphatic, Percutaneous Endoscopic Approach
+Add:         07HP01Z Insertion of Radioactive Element into Spleen, Open Approach  Insertion of Radioactive Element into Spleen, Open Approach
+Add:         07HP31Z Insertion of Radioactive Element into Spleen, Perc Approach  Insertion of Radioactive Element into Spleen, Percutaneous Approach
+Add:         07HP41Z Insertion of Radioact Elem into Spleen, Perc Endo Approach   Insertion of Radioactive Element into Spleen, Percutaneous Endoscopic Approach
+Add:         07HT01Z Insertion of Radioact Elem into Bone Marrow, Open Approach   Insertion of Radioactive Element into Bone Marrow, Open Approach
+Add:         07HT03Z Insertion of Infusion Device into Bone Marrow, Open Approach Insertion of Infusion Device into Bone Marrow, Open Approach
+Add:         07HT0YZ Insertion of Other Device into Bone Marrow, Open Approach    Insertion of Other Device into Bone Marrow, Open Approach
+Add:         07HT31Z Insertion of Radioact Elem into Bone Marrow, Perc Approach   Insertion of Radioactive Element into Bone Marrow, Percutaneous Approach
+Add:         07HT33Z Insertion of Infusion Device into Bone Marrow, Perc Approach Insertion of Infusion Device into Bone Marrow, Percutaneous Approach
+Add:         07HT3YZ Insertion of Other Device into Bone Marrow, Perc Approach    Insertion of Other Device into Bone Marrow, Percutaneous Approach
+Add:         07HT41Z Insert of Radioact Elem into Bone Marrow, Perc Endo Approach Insertion of Radioactive Element into Bone Marrow, Percutaneous Endoscopic Approach
+Add:         07HT43Z Insert of Infusion Dev into Bone Marrow, Perc Endo Approach  Insertion of Infusion Device into Bone Marrow, Percutaneous Endoscopic Approach
+Add:         07HT4YZ Insertion of Oth Dev into Bone Marrow, Perc Endo Approach    Insertion of Other Device into Bone Marrow, Percutaneous Endoscopic Approach
+Add:         09HD01Z Insertion of Radioact Elem into R Inner Ear, Open Approach   Insertion of Radioactive Element into Right Inner Ear, Open Approach
+Add:         09HD31Z Insertion of Radioact Elem into R Inner Ear, Perc Approach   Insertion of Radioactive Element into Right Inner Ear, Percutaneous Approach
+Add:         09HD41Z Insert of Radioact Elem into R Inner Ear, Perc Endo Approach Insertion of Radioactive Element into Right Inner Ear, Percutaneous Endoscopic Approach
+Add:         09HE01Z Insertion of Radioact Elem into L Inner Ear, Open Approach   Insertion of Radioactive Element into Left Inner Ear, Open Approach
+Add:         09HE31Z Insertion of Radioact Elem into L Inner Ear, Perc Approach   Insertion of Radioactive Element into Left Inner Ear, Percutaneous Approach
+Add:         09HE41Z Insert of Radioact Elem into L Inner Ear, Perc Endo Approach Insertion of Radioactive Element into Left Inner Ear, Percutaneous Endoscopic Approach
+Add:         09HH01Z Insertion of Radioactive Element into R Ear, Open Approach   Insertion of Radioactive Element into Right Ear, Open Approach
+Add:         09HH31Z Insertion of Radioactive Element into R Ear, Perc Approach   Insertion of Radioactive Element into Right Ear, Percutaneous Approach
+Add:         09HH41Z Insertion of Radioact Elem into R Ear, Perc Endo Approach    Insertion of Radioactive Element into Right Ear, Percutaneous Endoscopic Approach
+Add:         09HH71Z Insertion of Radioactive Element into Right Ear, Via Opening Insertion of Radioactive Element into Right Ear, Via Natural or Artificial Opening
+Add:         09HH81Z Insertion of Radioactive Element into Right Ear, Endo        Insertion of Radioactive Element into Right Ear, Via Natural or Artificial Opening Endoscopic
+Add:         09HJ01Z Insertion of Radioactive Element into L Ear, Open Approach   Insertion of Radioactive Element into Left Ear, Open Approach
+Add:         09HJ31Z Insertion of Radioactive Element into L Ear, Perc Approach   Insertion of Radioactive Element into Left Ear, Percutaneous Approach
+Add:         09HJ41Z Insertion of Radioact Elem into L Ear, Perc Endo Approach    Insertion of Radioactive Element into Left Ear, Percutaneous Endoscopic Approach
+Add:         09HJ71Z Insertion of Radioactive Element into Left Ear, Via Opening  Insertion of Radioactive Element into Left Ear, Via Natural or Artificial Opening
+Add:         09HJ81Z Insertion of Radioactive Element into Left Ear, Endo         Insertion of Radioactive Element into Left Ear, Via Natural or Artificial Opening Endoscopic
+Add:         09HK01Z Insertion of Radioact Elem into Nose Sft Tiss, Open Approach Insertion of Radioactive Element into Nasal Mucosa and Soft Tissue, Open Approach
+Add:         09HK31Z Insertion of Radioact Elem into Nose Sft Tiss, Perc Approach Insertion of Radioactive Element into Nasal Mucosa and Soft Tissue, Percutaneous Approach
+Add:         09HK41Z Insert Radioact Elem in Nose Sft Tiss, Perc Endo             Insertion of Radioactive Element into Nasal Mucosa and Soft Tissue, Percutaneous Endoscopic Approach
+Add:         09HK71Z Insertion of Radioact Elem into Nose Sft Tiss, Via Opening   Insertion of Radioactive Element into Nasal Mucosa and Soft Tissue, Via Natural or Artificial Opening
+Add:         09HK81Z Insertion of Radioactive Element into Nose Sft Tiss, Endo    Insertion of Radioactive Element into Nasal Mucosa and Soft Tissue, Via Natural or Artificial Opening Endoscopic
+Add:         09HN71Z Insertion of Radioact Elem into Nasopharynx, Via Opening     Insertion of Radioactive Element into Nasopharynx, Via Natural or Artificial Opening
+Add:         09HN81Z Insertion of Radioactive Element into Nasopharynx, Endo      Insertion of Radioactive Element into Nasopharynx, Via Natural or Artificial Opening Endoscopic
+Add:         09HY01Z Insertion of Radioactive Element into Sinus, Open Approach   Insertion of Radioactive Element into Sinus, Open Approach
+Add:         09HY31Z Insertion of Radioactive Element into Sinus, Perc Approach   Insertion of Radioactive Element into Sinus, Percutaneous Approach
+Add:         09HY41Z Insertion of Radioact Elem into Sinus, Perc Endo Approach    Insertion of Radioactive Element into Sinus, Percutaneous Endoscopic Approach
+Add:         09HY71Z Insertion of Radioactive Element into Sinus, Via Opening     Insertion of Radioactive Element into Sinus, Via Natural or Artificial Opening
+Add:         09HY81Z Insertion of Radioactive Element into Sinus, Endo            Insertion of Radioactive Element into Sinus, Via Natural or Artificial Opening Endoscopic
+Add:         0CHA01Z Insert of Radioact Elem into Salivary Gland, Open Approach   Insertion of Radioactive Element into Salivary Gland, Open Approach
+Add:         0CHA31Z Insert of Radioact Elem into Salivary Gland, Perc Approach   Insertion of Radioactive Element into Salivary Gland, Percutaneous Approach
+Add:         0CHA71Z Insertion of Radioact Elem into Salivary Gland, Via Opening  Insertion of Radioactive Element into Salivary Gland, Via Natural or Artificial Opening
+Add:         0CHA81Z Insertion of Radioactive Element into Salivary Gland, Endo   Insertion of Radioactive Element into Salivary Gland, Via Natural or Artificial Opening Endoscopic
+Add:         0CHS01Z Insertion of Radioactive Element into Larynx, Open Approach  Insertion of Radioactive Element into Larynx, Open Approach
+Add:         0CHS31Z Insertion of Radioactive Element into Larynx, Perc Approach  Insertion of Radioactive Element into Larynx, Percutaneous Approach
+Add:         0CHS71Z Insertion of Radioactive Element into Larynx, Via Opening    Insertion of Radioactive Element into Larynx, Via Natural or Artificial Opening
+Add:         0CHS81Z Insertion of Radioactive Element into Larynx, Endo           Insertion of Radioactive Element into Larynx, Via Natural or Artificial Opening Endoscopic
+Add:         0CHY01Z Insertion of Radioact Elem into Mouth/Throat, Open Approach  Insertion of Radioactive Element into Mouth and Throat, Open Approach
+Add:         0CHY31Z Insertion of Radioact Elem into Mouth/Throat, Perc Approach  Insertion of Radioactive Element into Mouth and Throat, Percutaneous Approach
+Add:         0CHY71Z Insertion of Radioact Elem into Mouth/Throat, Via Opening    Insertion of Radioactive Element into Mouth and Throat, Via Natural or Artificial Opening
+Add:         0CHY81Z Insertion of Radioactive Element into Mouth and Throat, Endo Insertion of Radioactive Element into Mouth and Throat, Via Natural or Artificial Opening Endoscopic
+Add:         0DH601Z Insertion of Radioactive Element into Stomach, Open Approach Insertion of Radioactive Element into Stomach, Open Approach
+Add:         0DH631Z Insertion of Radioactive Element into Stomach, Perc Approach Insertion of Radioactive Element into Stomach, Percutaneous Approach
+Add:         0DH641Z Insertion of Radioact Elem into Stomach, Perc Endo Approach  Insertion of Radioactive Element into Stomach, Percutaneous Endoscopic Approach
+Add:         0DH671Z Insertion of Radioactive Element into Stomach, Via Opening   Insertion of Radioactive Element into Stomach, Via Natural or Artificial Opening
+Add:         0DH681Z Insertion of Radioactive Element into Stomach, Endo          Insertion of Radioactive Element into Stomach, Via Natural or Artificial Opening Endoscopic
+Add:         0DH801Z Insertion of Radioact Elem into Small Intest, Open Approach  Insertion of Radioactive Element into Small Intestine, Open Approach
+Add:         0DH831Z Insertion of Radioact Elem into Small Intest, Perc Approach  Insertion of Radioactive Element into Small Intestine, Percutaneous Approach
+Add:         0DH841Z Insert Radioact Elem in Small Intest, Perc Endo              Insertion of Radioactive Element into Small Intestine, Percutaneous Endoscopic Approach
+Add:         0DH871Z Insertion of Radioact Elem into Small Intest, Via Opening    Insertion of Radioactive Element into Small Intestine, Via Natural or Artificial Opening
+Add:         0DH881Z Insertion of Radioactive Element into Small Intestine, Endo  Insertion of Radioactive Element into Small Intestine, Via Natural or Artificial Opening Endoscopic
+Add:         0DH901Z Insertion of Radioact Elem into Duodenum, Open Approach      Insertion of Radioactive Element into Duodenum, Open Approach
+Add:         0DH931Z Insertion of Radioact Elem into Duodenum, Perc Approach      Insertion of Radioactive Element into Duodenum, Percutaneous Approach
+Add:         0DH941Z Insertion of Radioact Elem into Duodenum, Perc Endo Approach Insertion of Radioactive Element into Duodenum, Percutaneous Endoscopic Approach
+Add:         0DH971Z Insertion of Radioactive Element into Duodenum, Via Opening  Insertion of Radioactive Element into Duodenum, Via Natural or Artificial Opening
+Add:         0DH981Z Insertion of Radioactive Element into Duodenum, Endo         Insertion of Radioactive Element into Duodenum, Via Natural or Artificial Opening Endoscopic
+Add:         0DHA01Z Insertion of Radioactive Element into Jejunum, Open Approach Insertion of Radioactive Element into Jejunum, Open Approach
+Add:         0DHA31Z Insertion of Radioactive Element into Jejunum, Perc Approach Insertion of Radioactive Element into Jejunum, Percutaneous Approach
+Add:         0DHA41Z Insertion of Radioact Elem into Jejunum, Perc Endo Approach  Insertion of Radioactive Element into Jejunum, Percutaneous Endoscopic Approach
+Add:         0DHA71Z Insertion of Radioactive Element into Jejunum, Via Opening   Insertion of Radioactive Element into Jejunum, Via Natural or Artificial Opening
+Add:         0DHA81Z Insertion of Radioactive Element into Jejunum, Endo          Insertion of Radioactive Element into Jejunum, Via Natural or Artificial Opening Endoscopic
+Add:         0DHB01Z Insertion of Radioactive Element into Ileum, Open Approach   Insertion of Radioactive Element into Ileum, Open Approach
+Add:         0DHB31Z Insertion of Radioactive Element into Ileum, Perc Approach   Insertion of Radioactive Element into Ileum, Percutaneous Approach
+Add:         0DHB41Z Insertion of Radioact Elem into Ileum, Perc Endo Approach    Insertion of Radioactive Element into Ileum, Percutaneous Endoscopic Approach
+Add:         0DHB71Z Insertion of Radioactive Element into Ileum, Via Opening     Insertion of Radioactive Element into Ileum, Via Natural or Artificial Opening
+Add:         0DHB81Z Insertion of Radioactive Element into Ileum, Endo            Insertion of Radioactive Element into Ileum, Via Natural or Artificial Opening Endoscopic
+Add:         0DHE01Z Insertion of Radioact Elem into Lg Intest, Open Approach     Insertion of Radioactive Element into Large Intestine, Open Approach
+Add:         0DHE31Z Insertion of Radioact Elem into Lg Intest, Perc Approach     Insertion of Radioactive Element into Large Intestine, Percutaneous Approach
+Add:         0DHE41Z Insert of Radioact Elem into Lg Intest, Perc Endo Approach   Insertion of Radioactive Element into Large Intestine, Percutaneous Endoscopic Approach
+Add:         0DHE71Z Insertion of Radioactive Element into Lg Intest, Via Opening Insertion of Radioactive Element into Large Intestine, Via Natural or Artificial Opening
+Add:         0DHE81Z Insertion of Radioactive Element into Large Intestine, Endo  Insertion of Radioactive Element into Large Intestine, Via Natural or Artificial Opening Endoscopic
+Add:         0F1D0D4 Bypass Pancreat Duct to Stomach w Intralum Dev, Open         Bypass Pancreatic Duct to Stomach with Intraluminal Device, Open Approach
+Add:         0F1D0Z4 Bypass Pancreatic Duct to Stomach, Open Approach             Bypass Pancreatic Duct to Stomach, Open Approach
+Add:         0F1D4D4 Bypass Pancreat Duct to Stomach w Intralum Dev, Perc Endo    Bypass Pancreatic Duct to Stomach with Intraluminal Device, Percutaneous Endoscopic Approach
+Add:         0F1D4Z4 Bypass Pancreatic Duct to Stomach, Perc Endo Approach        Bypass Pancreatic Duct to Stomach, Percutaneous Endoscopic Approach
+Add:         0FH001Z Insertion of Radioactive Element into Liver, Open Approach   Insertion of Radioactive Element into Liver, Open Approach
+Add:         0FH031Z Insertion of Radioactive Element into Liver, Perc Approach   Insertion of Radioactive Element into Liver, Percutaneous Approach
+Add:         0FH041Z Insertion of Radioact Elem into Liver, Perc Endo Approach    Insertion of Radioactive Element into Liver, Percutaneous Endoscopic Approach
+Add:         0FH401Z Insertion of Radioact Elem into Gallbladder, Open Approach   Insertion of Radioactive Element into Gallbladder, Open Approach
+Add:         0FH431Z Insertion of Radioact Elem into Gallbladder, Perc Approach   Insertion of Radioactive Element into Gallbladder, Percutaneous Approach
+Add:         0FH441Z Insert of Radioact Elem into Gallbladder, Perc Endo Approach Insertion of Radioactive Element into Gallbladder, Percutaneous Endoscopic Approach
+Add:         0FHG01Z Insertion of Radioact Elem into Pancreas, Open Approach      Insertion of Radioactive Element into Pancreas, Open Approach
+Add:         0FHG31Z Insertion of Radioact Elem into Pancreas, Perc Approach      Insertion of Radioactive Element into Pancreas, Percutaneous Approach
+Add:         0FHG41Z Insertion of Radioact Elem into Pancreas, Perc Endo Approach Insertion of Radioactive Element into Pancreas, Percutaneous Endoscopic Approach
+Add:         0GHS01Z Insert of Radioact Elem into Endocrine Gland, Open Approach  Insertion of Radioactive Element into Endocrine Gland, Open Approach
+Add:         0GHS31Z Insert of Radioact Elem into Endocrine Gland, Perc Approach  Insertion of Radioactive Element into Endocrine Gland, Percutaneous Approach
+Add:         0GHS41Z Insert Radioact Elem in Endocrine Gland, Perc Endo           Insertion of Radioactive Element into Endocrine Gland, Percutaneous Endoscopic Approach
+Add:         0JH60YZ Insertion of Oth Dev into Chest Subcu/Fascia, Open Approach  Insertion of Other Device into Chest Subcutaneous Tissue and Fascia, Open Approach
+Add:         0JH63YZ Insertion of Oth Dev into Chest Subcu/Fascia, Perc Approach  Insertion of Other Device into Chest Subcutaneous Tissue and Fascia, Percutaneous Approach
+Add:         0JH70YZ Insertion of Oth Dev into Back Subcu/Fascia, Open Approach   Insertion of Other Device into Back Subcutaneous Tissue and Fascia, Open Approach
+Add:         0JH73YZ Insertion of Oth Dev into Back Subcu/Fascia, Perc Approach   Insertion of Other Device into Back Subcutaneous Tissue and Fascia, Percutaneous Approach
+Add:         0JH80YZ Insertion of Oth Dev into Abd Subcu/Fascia, Open Approach    Insertion of Other Device into Abdomen Subcutaneous Tissue and Fascia, Open Approach
+Add:         0JH83YZ Insertion of Oth Dev into Abd Subcu/Fascia, Perc Approach    Insertion of Other Device into Abdomen Subcutaneous Tissue and Fascia, Percutaneous Approach
+Add:         0QP005Z Removal of Ext Fix from Lum Vertebra, Open Approach          Removal of External Fixation Device from Lumbar Vertebra, Open Approach
+Add:         0QP035Z Removal of Ext Fix from Lum Vertebra, Perc Approach          Removal of External Fixation Device from Lumbar Vertebra, Percutaneous Approach
+Add:         0QP045Z Removal of Ext Fix from Lum Vertebra, Perc Endo Approach     Removal of External Fixation Device from Lumbar Vertebra, Percutaneous Endoscopic Approach
+Add:         0QP0X5Z Removal of Ext Fix from Lum Vertebra, Extern Approach        Removal of External Fixation Device from Lumbar Vertebra, External Approach
+Add:         0QP105Z Removal of Ext Fix from Sacrum, Open Approach                Removal of External Fixation Device from Sacrum, Open Approach
+Add:         0QP135Z Removal of Ext Fix from Sacrum, Perc Approach                Removal of External Fixation Device from Sacrum, Percutaneous Approach
+Add:         0QP145Z Removal of Ext Fix from Sacrum, Perc Endo Approach           Removal of External Fixation Device from Sacrum, Percutaneous Endoscopic Approach
+Add:         0QP1X5Z Removal of Ext Fix from Sacrum, Extern Approach              Removal of External Fixation Device from Sacrum, External Approach
+Add:         0QP405Z Removal of Ext Fix from R Acetabulum, Open Approach          Removal of External Fixation Device from Right Acetabulum, Open Approach
+Add:         0QP435Z Removal of Ext Fix from R Acetabulum, Perc Approach          Removal of External Fixation Device from Right Acetabulum, Percutaneous Approach
+Add:         0QP445Z Removal of Ext Fix from R Acetabulum, Perc Endo Approach     Removal of External Fixation Device from Right Acetabulum, Percutaneous Endoscopic Approach
+Add:         0QP4X5Z Removal of Ext Fix from R Acetabulum, Extern Approach        Removal of External Fixation Device from Right Acetabulum, External Approach
+Add:         0QP505Z Removal of Ext Fix from L Acetabulum, Open Approach          Removal of External Fixation Device from Left Acetabulum, Open Approach
+Add:         0QP535Z Removal of Ext Fix from L Acetabulum, Perc Approach          Removal of External Fixation Device from Left Acetabulum, Percutaneous Approach
+Add:         0QP545Z Removal of Ext Fix from L Acetabulum, Perc Endo Approach     Removal of External Fixation Device from Left Acetabulum, Percutaneous Endoscopic Approach
+Add:         0QP5X5Z Removal of Ext Fix from L Acetabulum, Extern Approach        Removal of External Fixation Device from Left Acetabulum, External Approach
+Add:         0QPS05Z Removal of Ext Fix from Coccyx, Open Approach                Removal of External Fixation Device from Coccyx, Open Approach
+Add:         0QPS35Z Removal of Ext Fix from Coccyx, Perc Approach                Removal of External Fixation Device from Coccyx, Percutaneous Approach
+Add:         0QPS45Z Removal of Ext Fix from Coccyx, Perc Endo Approach           Removal of External Fixation Device from Coccyx, Percutaneous Endoscopic Approach
+Add:         0QPSX5Z Removal of Ext Fix from Coccyx, Extern Approach              Removal of External Fixation Device from Coccyx, External Approach
+Add:         0RGL03Z Fusion R Elbow Jt w Int Fix Sustn Comprs, Open               Fusion of Right Elbow Joint with Sustained Compression Internal Fixation Device, Open Approach
+Add:         0RGL33Z Fusion R Elbow Jt w Int Fix Sustn Comprs, Perc               Fusion of Right Elbow Joint with Sustained Compression Internal Fixation Device, Percutaneous Approach
+Add:         0RGL43Z Fusion R Elbow Jt w Int Fix Sustn Comprs, Perc Endo          Fusion of Right Elbow Joint with Sustained Compression Internal Fixation Device, Percutaneous Endoscopic Approach
+Add:         0RGM03Z Fusion L Elbow Jt w Int Fix Sustn Comprs, Open               Fusion of Left Elbow Joint with Sustained Compression Internal Fixation Device, Open Approach
+Add:         0RGM33Z Fusion L Elbow Jt w Int Fix Sustn Comprs, Perc               Fusion of Left Elbow Joint with Sustained Compression Internal Fixation Device, Percutaneous Approach
+Add:         0RGM43Z Fusion L Elbow Jt w Int Fix Sustn Comprs, Perc Endo          Fusion of Left Elbow Joint with Sustained Compression Internal Fixation Device, Percutaneous Endoscopic Approach
+Add:         0RGN03Z Fusion R Wrist Jt w Int Fix Sustn Comprs, Open               Fusion of Right Wrist Joint with Sustained Compression Internal Fixation Device, Open Approach
+Add:         0RGN33Z Fusion R Wrist Jt w Int Fix Sustn Comprs, Perc               Fusion of Right Wrist Joint with Sustained Compression Internal Fixation Device, Percutaneous Approach
+Add:         0RGN43Z Fusion R Wrist Jt w Int Fix Sustn Comprs, Perc Endo          Fusion of Right Wrist Joint with Sustained Compression Internal Fixation Device, Percutaneous Endoscopic Approach
+Add:         0RGP03Z Fusion L Wrist Jt w Int Fix Sustn Comprs, Open               Fusion of Left Wrist Joint with Sustained Compression Internal Fixation Device, Open Approach
+Add:         0RGP33Z Fusion L Wrist Jt w Int Fix Sustn Comprs, Perc               Fusion of Left Wrist Joint with Sustained Compression Internal Fixation Device, Percutaneous Approach
+Add:         0RGP43Z Fusion L Wrist Jt w Int Fix Sustn Comprs, Perc Endo          Fusion of Left Wrist Joint with Sustained Compression Internal Fixation Device, Percutaneous Endoscopic Approach
+Add:         0RGQ03Z Fusion R Carpal Jt w Int Fix Sustn Comprs, Open              Fusion of Right Carpal Joint with Sustained Compression Internal Fixation Device, Open Approach
+Add:         0RGQ33Z Fusion R Carpal Jt w Int Fix Sustn Comprs, Perc              Fusion of Right Carpal Joint with Sustained Compression Internal Fixation Device, Percutaneous Approach
+Add:         0RGQ43Z Fusion R Carpal Jt w Int Fix Sustn Comprs, Perc Endo         Fusion of Right Carpal Joint with Sustained Compression Internal Fixation Device, Percutaneous Endoscopic Approach
+Add:         0RGR03Z Fusion L Carpal Jt w Int Fix Sustn Comprs, Open              Fusion of Left Carpal Joint with Sustained Compression Internal Fixation Device, Open Approach
+Add:         0RGR33Z Fusion L Carpal Jt w Int Fix Sustn Comprs, Perc              Fusion of Left Carpal Joint with Sustained Compression Internal Fixation Device, Percutaneous Approach
+Add:         0RGR43Z Fusion L Carpal Jt w Int Fix Sustn Comprs, Perc Endo         Fusion of Left Carpal Joint with Sustained Compression Internal Fixation Device, Percutaneous Endoscopic Approach
+Add:         0RGS03Z Fusion R Carpometacarp Jt w Int Fix Sustn Comprs, Open       Fusion of Right Carpometacarpal Joint with Sustained Compression Internal Fixation Device, Open Approach
+Add:         0RGS33Z Fusion R Carpometacarp Jt w Int Fix Sustn Comprs, Perc       Fusion of Right Carpometacarpal Joint with Sustained Compression Internal Fixation Device, Percutaneous Approach
+Add:         0RGS43Z Fusion R Carpometacarp Jt w Int Fix Sustn Comprs, Perc Endo  Fusion of Right Carpometacarpal Joint with Sustained Compression Internal Fixation Device, Percutaneous Endoscopic Approach
+Add:         0RGT03Z Fusion L Carpometacarp Jt w Int Fix Sustn Comprs, Open       Fusion of Left Carpometacarpal Joint with Sustained Compression Internal Fixation Device, Open Approach
+Add:         0RGT33Z Fusion L Carpometacarp Jt w Int Fix Sustn Comprs, Perc       Fusion of Left Carpometacarpal Joint with Sustained Compression Internal Fixation Device, Percutaneous Approach
+Add:         0RGT43Z Fusion L Carpometacarp Jt w Int Fix Sustn Comprs, Perc Endo  Fusion of Left Carpometacarpal Joint with Sustained Compression Internal Fixation Device, Percutaneous Endoscopic Approach
+Add:         0RGU03Z Fusion R Metacarpophal Jt w Int Fix Sustn Comprs, Open       Fusion of Right Metacarpophalangeal Joint with Sustained Compression Internal Fixation Device, Open Approach
+Add:         0RGU33Z Fusion R Metacarpophal Jt w Int Fix Sustn Comprs, Perc       Fusion of Right Metacarpophalangeal Joint with Sustained Compression Internal Fixation Device, Percutaneous Approach
+Add:         0RGU43Z Fusion R Metacarpophal Jt w Int Fix Sustn Comprs, Perc Endo  Fusion of Right Metacarpophalangeal Joint with Sustained Compression Internal Fixation Device, Percutaneous Endoscopic Approach
+Add:         0RGV03Z Fusion L Metacarpophal Jt w Int Fix Sustn Comprs, Open       Fusion of Left Metacarpophalangeal Joint with Sustained Compression Internal Fixation Device, Open Approach
+Add:         0RGV33Z Fusion L Metacarpophal Jt w Int Fix Sustn Comprs, Perc       Fusion of Left Metacarpophalangeal Joint with Sustained Compression Internal Fixation Device, Percutaneous Approach
+Add:         0RGV43Z Fusion L Metacarpophal Jt w Int Fix Sustn Comprs, Perc Endo  Fusion of Left Metacarpophalangeal Joint with Sustained Compression Internal Fixation Device, Percutaneous Endoscopic Approach
+Add:         0RGW03Z Fusion R Finger Phalanx Jt w Int Fix Sustn Comprs, Open      Fusion of Right Finger Phalangeal Joint with Sustained Compression Internal Fixation Device, Open Approach
+Add:         0RGW33Z Fusion R Finger Phalanx Jt w Int Fix Sustn Comprs, Perc      Fusion of Right Finger Phalangeal Joint with Sustained Compression Internal Fixation Device, Percutaneous Approach
+Add:         0RGW43Z Fusion R Finger Phalanx Jt w Int Fix Sustn Comprs, Perc Endo Fusion of Right Finger Phalangeal Joint with Sustained Compression Internal Fixation Device, Percutaneous Endoscopic Approach
+Add:         0RGX03Z Fusion L Finger Phalanx Jt w Int Fix Sustn Comprs, Open      Fusion of Left Finger Phalangeal Joint with Sustained Compression Internal Fixation Device, Open Approach
+Add:         0RGX33Z Fusion L Finger Phalanx Jt w Int Fix Sustn Comprs, Perc      Fusion of Left Finger Phalangeal Joint with Sustained Compression Internal Fixation Device, Percutaneous Approach
+Add:         0RGX43Z Fusion L Finger Phalanx Jt w Int Fix Sustn Comprs, Perc Endo Fusion of Left Finger Phalangeal Joint with Sustained Compression Internal Fixation Device, Percutaneous Endoscopic Approach
+Add:         0SG903Z Fusion of R Hip Jt with Int Fix Sustn Comprs, Open Approach  Fusion of Right Hip Joint with Sustained Compression Internal Fixation Device, Open Approach
+Add:         0SG933Z Fusion of R Hip Jt with Int Fix Sustn Comprs, Perc Approach  Fusion of Right Hip Joint with Sustained Compression Internal Fixation Device, Percutaneous Approach
+Add:         0SG943Z Fusion R Hip Jt w Int Fix Sustn Comprs, Perc Endo            Fusion of Right Hip Joint with Sustained Compression Internal Fixation Device, Percutaneous Endoscopic Approach
+Add:         0SGB03Z Fusion of L Hip Jt with Int Fix Sustn Comprs, Open Approach  Fusion of Left Hip Joint with Sustained Compression Internal Fixation Device, Open Approach
+Add:         0SGB33Z Fusion of L Hip Jt with Int Fix Sustn Comprs, Perc Approach  Fusion of Left Hip Joint with Sustained Compression Internal Fixation Device, Percutaneous Approach
+Add:         0SGB43Z Fusion L Hip Jt w Int Fix Sustn Comprs, Perc Endo            Fusion of Left Hip Joint with Sustained Compression Internal Fixation Device, Percutaneous Endoscopic Approach
+Add:         0SGC03Z Fusion of R Knee Jt with Int Fix Sustn Comprs, Open Approach Fusion of Right Knee Joint with Sustained Compression Internal Fixation Device, Open Approach
+Add:         0SGC33Z Fusion of R Knee Jt with Int Fix Sustn Comprs, Perc Approach Fusion of Right Knee Joint with Sustained Compression Internal Fixation Device, Percutaneous Approach
+Add:         0SGC43Z Fusion R Knee Jt w Int Fix Sustn Comprs, Perc Endo           Fusion of Right Knee Joint with Sustained Compression Internal Fixation Device, Percutaneous Endoscopic Approach
+Add:         0SGD03Z Fusion of L Knee Jt with Int Fix Sustn Comprs, Open Approach Fusion of Left Knee Joint with Sustained Compression Internal Fixation Device, Open Approach
+Add:         0SGD33Z Fusion of L Knee Jt with Int Fix Sustn Comprs, Perc Approach Fusion of Left Knee Joint with Sustained Compression Internal Fixation Device, Percutaneous Approach
+Add:         0SGD43Z Fusion L Knee Jt w Int Fix Sustn Comprs, Perc Endo           Fusion of Left Knee Joint with Sustained Compression Internal Fixation Device, Percutaneous Endoscopic Approach
+Add:         0SGF03Z Fusion R Ankle Jt w Int Fix Sustn Comprs, Open               Fusion of Right Ankle Joint with Sustained Compression Internal Fixation Device, Open Approach
+Add:         0SGF33Z Fusion R Ankle Jt w Int Fix Sustn Comprs, Perc               Fusion of Right Ankle Joint with Sustained Compression Internal Fixation Device, Percutaneous Approach
+Add:         0SGF43Z Fusion R Ankle Jt w Int Fix Sustn Comprs, Perc Endo          Fusion of Right Ankle Joint with Sustained Compression Internal Fixation Device, Percutaneous Endoscopic Approach
+Add:         0SGG03Z Fusion L Ankle Jt w Int Fix Sustn Comprs, Open               Fusion of Left Ankle Joint with Sustained Compression Internal Fixation Device, Open Approach
+Add:         0SGG33Z Fusion L Ankle Jt w Int Fix Sustn Comprs, Perc               Fusion of Left Ankle Joint with Sustained Compression Internal Fixation Device, Percutaneous Approach
+Add:         0SGG43Z Fusion L Ankle Jt w Int Fix Sustn Comprs, Perc Endo          Fusion of Left Ankle Joint with Sustained Compression Internal Fixation Device, Percutaneous Endoscopic Approach
+Add:         0SGH03Z Fusion R Tarsal Jt w Int Fix Sustn Comprs, Open              Fusion of Right Tarsal Joint with Sustained Compression Internal Fixation Device, Open Approach
+Add:         0SGH33Z Fusion R Tarsal Jt w Int Fix Sustn Comprs, Perc              Fusion of Right Tarsal Joint with Sustained Compression Internal Fixation Device, Percutaneous Approach
+Add:         0SGH43Z Fusion R Tarsal Jt w Int Fix Sustn Comprs, Perc Endo         Fusion of Right Tarsal Joint with Sustained Compression Internal Fixation Device, Percutaneous Endoscopic Approach
+Add:         0SGJ03Z Fusion L Tarsal Jt w Int Fix Sustn Comprs, Open              Fusion of Left Tarsal Joint with Sustained Compression Internal Fixation Device, Open Approach
+Add:         0SGJ33Z Fusion L Tarsal Jt w Int Fix Sustn Comprs, Perc              Fusion of Left Tarsal Joint with Sustained Compression Internal Fixation Device, Percutaneous Approach
+Add:         0SGJ43Z Fusion L Tarsal Jt w Int Fix Sustn Comprs, Perc Endo         Fusion of Left Tarsal Joint with Sustained Compression Internal Fixation Device, Percutaneous Endoscopic Approach
+Add:         0SGK03Z Fusion R Tarsometatars Jt w Int Fix Sustn Comprs, Open       Fusion of Right Tarsometatarsal Joint with Sustained Compression Internal Fixation Device, Open Approach
+Add:         0SGK33Z Fusion R Tarsometatars Jt w Int Fix Sustn Comprs, Perc       Fusion of Right Tarsometatarsal Joint with Sustained Compression Internal Fixation Device, Percutaneous Approach
+Add:         0SGK43Z Fusion R Tarsometatars Jt w Int Fix Sustn Comprs, Perc Endo  Fusion of Right Tarsometatarsal Joint with Sustained Compression Internal Fixation Device, Percutaneous Endoscopic Approach
+Add:         0SGL03Z Fusion L Tarsometatars Jt w Int Fix Sustn Comprs, Open       Fusion of Left Tarsometatarsal Joint with Sustained Compression Internal Fixation Device, Open Approach
+Add:         0SGL33Z Fusion L Tarsometatars Jt w Int Fix Sustn Comprs, Perc       Fusion of Left Tarsometatarsal Joint with Sustained Compression Internal Fixation Device, Percutaneous Approach
+Add:         0SGL43Z Fusion L Tarsometatars Jt w Int Fix Sustn Comprs, Perc Endo  Fusion of Left Tarsometatarsal Joint with Sustained Compression Internal Fixation Device, Percutaneous Endoscopic Approach
+Add:         0SGM03Z Fusion R Metatarsophal Jt w Int Fix Sustn Comprs, Open       Fusion of Right Metatarsal-Phalangeal Joint with Sustained Compression Internal Fixation Device, Open Approach
+Add:         0SGM33Z Fusion R Metatarsophal Jt w Int Fix Sustn Comprs, Perc       Fusion of Right Metatarsal-Phalangeal Joint with Sustained Compression Internal Fixation Device, Percutaneous Approach
+Add:         0SGM43Z Fusion R Metatarsophal Jt w Int Fix Sustn Comprs, Perc Endo  Fusion of Right Metatarsal-Phalangeal Joint with Sustained Compression Internal Fixation Device, Percutaneous Endoscopic Approach
+Add:         0SGN03Z Fusion L Metatarsophal Jt w Int Fix Sustn Comprs, Open       Fusion of Left Metatarsal-Phalangeal Joint with Sustained Compression Internal Fixation Device, Open Approach
+Add:         0SGN33Z Fusion L Metatarsophal Jt w Int Fix Sustn Comprs, Perc       Fusion of Left Metatarsal-Phalangeal Joint with Sustained Compression Internal Fixation Device, Percutaneous Approach
+Add:         0SGN43Z Fusion L Metatarsophal Jt w Int Fix Sustn Comprs, Perc Endo  Fusion of Left Metatarsal-Phalangeal Joint with Sustained Compression Internal Fixation Device, Percutaneous Endoscopic Approach
+Add:         0SGP03Z Fusion R Toe Phalanx Jt w Int Fix Sustn Comprs, Open         Fusion of Right Toe Phalangeal Joint with Sustained Compression Internal Fixation Device, Open Approach
+Add:         0SGP33Z Fusion R Toe Phalanx Jt w Int Fix Sustn Comprs, Perc         Fusion of Right Toe Phalangeal Joint with Sustained Compression Internal Fixation Device, Percutaneous Approach
+Add:         0SGP43Z Fusion R Toe Phalanx Jt w Int Fix Sustn Comprs, Perc Endo    Fusion of Right Toe Phalangeal Joint with Sustained Compression Internal Fixation Device, Percutaneous Endoscopic Approach
+Add:         0SGQ03Z Fusion L Toe Phalanx Jt w Int Fix Sustn Comprs, Open         Fusion of Left Toe Phalangeal Joint with Sustained Compression Internal Fixation Device, Open Approach
+Add:         0SGQ33Z Fusion L Toe Phalanx Jt w Int Fix Sustn Comprs, Perc         Fusion of Left Toe Phalangeal Joint with Sustained Compression Internal Fixation Device, Percutaneous Approach
+Add:         0SGQ43Z Fusion L Toe Phalanx Jt w Int Fix Sustn Comprs, Perc Endo    Fusion of Left Toe Phalangeal Joint with Sustained Compression Internal Fixation Device, Percutaneous Endoscopic Approach
+Add:         0TH501Z Insertion of Radioactive Element into Kidney, Open Approach  Insertion of Radioactive Element into Kidney, Open Approach
+Add:         0TH531Z Insertion of Radioactive Element into Kidney, Perc Approach  Insertion of Radioactive Element into Kidney, Percutaneous Approach
+Add:         0TH541Z Insertion of Radioact Elem into Kidney, Perc Endo Approach   Insertion of Radioactive Element into Kidney, Percutaneous Endoscopic Approach
+Add:         0TH571Z Insertion of Radioactive Element into Kidney, Via Opening    Insertion of Radioactive Element into Kidney, Via Natural or Artificial Opening
+Add:         0TH581Z Insertion of Radioactive Element into Kidney, Endo           Insertion of Radioactive Element into Kidney, Via Natural or Artificial Opening Endoscopic
+Add:         0TH901Z Insertion of Radioactive Element into Ureter, Open Approach  Insertion of Radioactive Element into Ureter, Open Approach
+Add:         0TH931Z Insertion of Radioactive Element into Ureter, Perc Approach  Insertion of Radioactive Element into Ureter, Percutaneous Approach
+Add:         0TH941Z Insertion of Radioact Elem into Ureter, Perc Endo Approach   Insertion of Radioactive Element into Ureter, Percutaneous Endoscopic Approach
+Add:         0TH971Z Insertion of Radioactive Element into Ureter, Via Opening    Insertion of Radioactive Element into Ureter, Via Natural or Artificial Opening
+Add:         0TH981Z Insertion of Radioactive Element into Ureter, Endo           Insertion of Radioactive Element into Ureter, Via Natural or Artificial Opening Endoscopic
+Add:         0THB01Z Insertion of Radioactive Element into Bladder, Open Approach Insertion of Radioactive Element into Bladder, Open Approach
+Add:         0THB31Z Insertion of Radioactive Element into Bladder, Perc Approach Insertion of Radioactive Element into Bladder, Percutaneous Approach
+Add:         0THB41Z Insertion of Radioact Elem into Bladder, Perc Endo Approach  Insertion of Radioactive Element into Bladder, Percutaneous Endoscopic Approach
+Add:         0THB71Z Insertion of Radioactive Element into Bladder, Via Opening   Insertion of Radioactive Element into Bladder, Via Natural or Artificial Opening
+Add:         0THB81Z Insertion of Radioactive Element into Bladder, Endo          Insertion of Radioactive Element into Bladder, Via Natural or Artificial Opening Endoscopic
+Add:         0THD01Z Insertion of Radioactive Element into Urethra, Open Approach Insertion of Radioactive Element into Urethra, Open Approach
+Add:         0THD31Z Insertion of Radioactive Element into Urethra, Perc Approach Insertion of Radioactive Element into Urethra, Percutaneous Approach
+Add:         0THD41Z Insertion of Radioact Elem into Urethra, Perc Endo Approach  Insertion of Radioactive Element into Urethra, Percutaneous Endoscopic Approach
+Add:         0THD71Z Insertion of Radioactive Element into Urethra, Via Opening   Insertion of Radioactive Element into Urethra, Via Natural or Artificial Opening
+Add:         0THD81Z Insertion of Radioactive Element into Urethra, Endo          Insertion of Radioactive Element into Urethra, Via Natural or Artificial Opening Endoscopic
+Add:         0UH301Z Insertion of Radioactive Element into Ovary, Open Approach   Insertion of Radioactive Element into Ovary, Open Approach
+Add:         0UH331Z Insertion of Radioactive Element into Ovary, Perc Approach   Insertion of Radioactive Element into Ovary, Percutaneous Approach
+Add:         0UH341Z Insertion of Radioact Elem into Ovary, Perc Endo Approach    Insertion of Radioactive Element into Ovary, Percutaneous Endoscopic Approach
+Add:         0UH371Z Insertion of Radioactive Element into Ovary, Via Opening     Insertion of Radioactive Element into Ovary, Via Natural or Artificial Opening
+Add:         0UH381Z Insertion of Radioactive Element into Ovary, Endo            Insertion of Radioactive Element into Ovary, Via Natural or Artificial Opening Endoscopic
+Add:         0UH901Z Insertion of Radioactive Element into Uterus, Open Approach  Insertion of Radioactive Element into Uterus, Open Approach
+Add:         0UH971Z Insertion of Radioactive Element into Uterus, Via Opening    Insertion of Radioactive Element into Uterus, Via Natural or Artificial Opening
+Add:         0UH981Z Insertion of Radioactive Element into Uterus, Endo           Insertion of Radioactive Element into Uterus, Via Natural or Artificial Opening Endoscopic
+Add:         0VHD01Z Insertion of Radioactive Element into Testis, Open Approach  Insertion of Radioactive Element into Testis, Open Approach
+Add:         0VHD31Z Insertion of Radioactive Element into Testis, Perc Approach  Insertion of Radioactive Element into Testis, Percutaneous Approach
+Add:         0VHD41Z Insertion of Radioact Elem into Testis, Perc Endo Approach   Insertion of Radioactive Element into Testis, Percutaneous Endoscopic Approach
+Add:         0VHD71Z Insertion of Radioactive Element into Testis, Via Opening    Insertion of Radioactive Element into Testis, Via Natural or Artificial Opening
+Add:         0VHD81Z Insertion of Radioactive Element into Testis, Endo           Insertion of Radioactive Element into Testis, Via Natural or Artificial Opening Endoscopic
+Add:         0VY     Male Reproductive System, Transplantation                    Male Reproductive System, Transplantation
+Add:         0VY50Z0 Transplantation of Scrotum, Allogeneic, Open Approach        Transplantation of Scrotum, Allogeneic, Open Approach
+Add:         0VY50Z1 Transplantation of Scrotum, Syngeneic, Open Approach         Transplantation of Scrotum, Syngeneic, Open Approach
+Add:         0VY50Z2 Transplantation of Scrotum, Zooplastic, Open Approach        Transplantation of Scrotum, Zooplastic, Open Approach
+Add:         0VYS0Z0 Transplantation of Penis, Allogeneic, Open Approach          Transplantation of Penis, Allogeneic, Open Approach
+Add:         0VYS0Z1 Transplantation of Penis, Syngeneic, Open Approach           Transplantation of Penis, Syngeneic, Open Approach
+Add:         0VYS0Z2 Transplantation of Penis, Zooplastic, Open Approach          Transplantation of Penis, Zooplastic, Open Approach
+Add:         0W1G0J6 Bypass Periton Cav to Bladder with Synth Sub, Open Approach  Bypass Peritoneal Cavity to Bladder with Synthetic Substitute, Open Approach
+Add:         0W1G3J6 Bypass Periton Cav to Bladder with Synth Sub, Perc Approach  Bypass Peritoneal Cavity to Bladder with Synthetic Substitute, Percutaneous Approach
+Add:         0W1G4J6 Bypass Periton Cav to Bladder w Synth Sub, Perc Endo         Bypass Peritoneal Cavity to Bladder with Synthetic Substitute, Percutaneous Endoscopic Approach
+Add:         0W9J70Z Drainage of Pelvic Cavity with Drainage Device, Via Opening  Drainage of Pelvic Cavity with Drainage Device, Via Natural or Artificial Opening
+Add:         0W9J7ZX Drainage of Pelvic Cavity, Via Opening, Diagn                Drainage of Pelvic Cavity, Via Natural or Artificial Opening, Diagnostic
+Add:         0W9J7ZZ Drainage of Pelvic Cavity, Via Natural or Artificial Opening Drainage of Pelvic Cavity, Via Natural or Artificial Opening
+Add:         0W9J80Z Drainage of Pelvic Cavity with Drainage Device, Endo         Drainage of Pelvic Cavity with Drainage Device, Via Natural or Artificial Opening Endoscopic
+Add:         0W9J8ZX Drainage of Pelvic Cavity, Endo, Diagn                       Drainage of Pelvic Cavity, Via Natural or Artificial Opening Endoscopic, Diagnostic
+Add:         0W9J8ZZ Drainage of Pelvic Cavity, Endo                              Drainage of Pelvic Cavity, Via Natural or Artificial Opening Endoscopic
+Add:         10D20ZZ Extraction of Products of Conception, Ectopic, Open Approach Extraction of Products of Conception, Ectopic, Open Approach
+Add:         10D24ZZ Extraction of Ectopic POC, Perc Endo Approach                Extraction of Products of Conception, Ectopic, Percutaneous Endoscopic Approach
+Add:         30230C0 Transfuse Autol HSPC, Gene Mod in Periph Vein, Open          Transfusion of Autologous Hematopoietic Stem/Progenitor Cells, Genetically Modified into Peripheral Vein, Open Approach
+Add:         30233C0 Transfuse Autol HSPC, Gene Mod in Periph Vein, Perc          Transfusion of Autologous Hematopoietic Stem/Progenitor Cells, Genetically Modified into Peripheral Vein, Percutaneous Approach
+Add:         30240C0 Transfuse Autol HSPC, Gene Mod in Central Vein, Open         Transfusion of Autologous Hematopoietic Stem/Progenitor Cells, Genetically Modified into Central Vein, Open Approach
+Add:         30243C0 Transfuse Autol HSPC, Gene Mod in Central Vein, Perc         Transfusion of Autologous Hematopoietic Stem/Progenitor Cells, Genetically Modified into Central Vein, Percutaneous Approach
+Add:         4A03X5D Measurement of Arterial Flow, Intracranial, Extern Approach  Measurement of Arterial Flow, Intracranial, External Approach
+Add:         4A044B2 Measurement of Venous Pressure, Portal, Perc Endo Approach   Measurement of Venous Pressure, Portal, Percutaneous Endoscopic Approach
+Add:         4A0F3BE Measurement of MS Pressure, Compartment, Perc Approach       Measurement of Musculoskeletal Pressure, Compartment, Percutaneous Approach
+Add:         5A0935A Assistance with Resp Ventilation, <24 Hrs, High Nasal Fl Vel Assistance with Respiratory Ventilation, Less than 24 Consecutive Hours, High Nasal Flow/Velocity
+Add:         5A0945A Assist with Resp Ventilation, 24-96 Hrs, High Nasal Fl Vel   Assistance with Respiratory Ventilation, 24-96 Consecutive Hours, High Nasal Flow/Velocity
+Add:         5A0955A Assistance with Resp Ventilation, >96 Hrs, High Nasal Fl Vel Assistance with Respiratory Ventilation, Greater than 96 Consecutive Hours, High Nasal Flow/Velocity
+Add:         8E02XDZ Near Infrared Spectroscopy of Circ Sys, Extern Approach      Near Infrared Spectroscopy of Circulatory System, External Approach
+Add:         BF5     Imaging, Hepatobiliary System and Pancreas, Other Imaging    Imaging, Hepatobiliary System and Pancreas, Other Imaging
+Add:         BF50200 Other Imaging of Bile Ducts using Fluor Agent, ICG, Intraop  Other Imaging of Bile Ducts using Fluorescing Agent, Indocyanine Green Dye, Intraoperative
+Add:         BF5020Z Other Imaging of Bile Ducts using Fluorescing Agent, ICG     Other Imaging of Bile Ducts using Fluorescing Agent, Indocyanine Green Dye
+Add:         BF502Z0 Other Imaging of Bile Ducts using Fluorescing Agent, Intraop Other Imaging of Bile Ducts using Fluorescing Agent, Intraoperative
+Add:         BF502ZZ Other Imaging of Bile Ducts using Fluorescing Agent          Other Imaging of Bile Ducts using Fluorescing Agent
+Add:         BF52200 Other Imaging of Gallbladder using Fluor Agent, ICG, Intraop Other Imaging of Gallbladder using Fluorescing Agent, Indocyanine Green Dye, Intraoperative
+Add:         BF5220Z Other Imaging of Gallbladder using Fluorescing Agent, ICG    Other Imaging of Gallbladder using Fluorescing Agent, Indocyanine Green Dye
+Add:         BF522Z0 Other Imaging of Gallbladder using Fluor Agent, Intraop      Other Imaging of Gallbladder using Fluorescing Agent, Intraoperative
+Add:         BF522ZZ Other Imaging of Gallbladder using Fluorescing Agent         Other Imaging of Gallbladder using Fluorescing Agent
+Add:         BF53200 Oth Imag Gallbladder & Bile Duct w Fluor Agent, ICG, Intraop Other Imaging of Gallbladder and Bile Ducts using Fluorescing Agent, Indocyanine Green Dye, Intraoperative
+Add:         BF5320Z Oth Imag of Gallbladder & Bile Duct using Fluor Agent, ICG   Other Imaging of Gallbladder and Bile Ducts using Fluorescing Agent, Indocyanine Green Dye
+Add:         BF532Z0 Oth Imag Gallbladder & Bile Duct w Fluor Agent, Intraop      Other Imaging of Gallbladder and Bile Ducts using Fluorescing Agent, Intraoperative
+Add:         BF532ZZ Other Imaging of Gallbladder & Bile Duct using Fluor Agent   Other Imaging of Gallbladder and Bile Ducts using Fluorescing Agent
+Add:         BF55200 Other Imaging of Liver using Fluorescing Agent, ICG, Intraop Other Imaging of Liver using Fluorescing Agent, Indocyanine Green Dye, Intraoperative
+Add:         BF5520Z Other Imaging of Liver using Fluorescing Agent, ICG          Other Imaging of Liver using Fluorescing Agent, Indocyanine Green Dye
+Add:         BF552Z0 Other Imaging of Liver using Fluorescing Agent, Intraop      Other Imaging of Liver using Fluorescing Agent, Intraoperative
+Add:         BF552ZZ Other Imaging of Liver using Fluorescing Agent               Other Imaging of Liver using Fluorescing Agent
+Add:         BF56200 Oth Imag of Liver & Spleen using Fluor Agent, ICG, Intraop   Other Imaging of Liver and Spleen using Fluorescing Agent, Indocyanine Green Dye, Intraoperative
+Add:         BF5620Z Other Imaging of Liver and Spleen using Fluor Agent, ICG     Other Imaging of Liver and Spleen using Fluorescing Agent, Indocyanine Green Dye
+Add:         BF562Z0 Other Imaging of Liver and Spleen using Fluor Agent, Intraop Other Imaging of Liver and Spleen using Fluorescing Agent, Intraoperative
+Add:         BF562ZZ Other Imaging of Liver and Spleen using Fluorescing Agent    Other Imaging of Liver and Spleen using Fluorescing Agent
+Add:         BF57200 Other Imaging of Pancreas using Fluor Agent, ICG, Intraop    Other Imaging of Pancreas using Fluorescing Agent, Indocyanine Green Dye, Intraoperative
+Add:         BF5720Z Other Imaging of Pancreas using Fluorescing Agent, ICG       Other Imaging of Pancreas using Fluorescing Agent, Indocyanine Green Dye
+Add:         BF572Z0 Other Imaging of Pancreas using Fluorescing Agent, Intraop   Other Imaging of Pancreas using Fluorescing Agent, Intraoperative
+Add:         BF572ZZ Other Imaging of Pancreas using Fluorescing Agent            Other Imaging of Pancreas using Fluorescing Agent
+Add:         BF5C200 Oth Imag Hepatobil Sys, All w Fluor Agent, ICG, Intraop      Other Imaging of Hepatobiliary System, All using Fluorescing Agent, Indocyanine Green Dye, Intraoperative
+Add:         BF5C20Z Other Imaging of Hepatobil Sys, All using Fluor Agent, ICG   Other Imaging of Hepatobiliary System, All using Fluorescing Agent, Indocyanine Green Dye
+Add:         BF5C2Z0 Oth Imag of Hepatobil Sys, All using Fluor Agent, Intraop    Other Imaging of Hepatobiliary System, All using Fluorescing Agent, Intraoperative
+Add:         BF5C2ZZ Other Imaging of Hepatobiliary System, All using Fluor Agent Other Imaging of Hepatobiliary System, All using Fluorescing Agent
+Add:         BW5     Imaging, Anatomical Regions, Other Imaging                   Imaging, Anatomical Regions, Other Imaging
+Add:         BW52Z1Z Other Imaging of Trunk using Bacterial Autofluorescence      Other Imaging of Trunk using Bacterial Autofluorescence
+Add:         BW59Z1Z Other Imaging of Head and Neck using Bact Fluoresc           Other Imaging of Head and Neck using Bacterial Autofluorescence
+Add:         BW5CZ1Z Other Imaging of Lower Extremity using Bact Fluoresc         Other Imaging of Lower Extremity using Bacterial Autofluorescence
+Add:         BW5JZ1Z Other Imaging of Upper Extremity using Bact Fluoresc         Other Imaging of Upper Extremity using Bacterial Autofluorescence
+Add:         D010B6Z Low Dose Rate (LDR) Brachytherapy of Brain using Cesium 131  Low Dose Rate (LDR) Brachytherapy of Brain using Cesium 131 (Cs-131)
+Add:         D011B6Z LDR Brachytherapy of Brain Stem using Cesium 131             Low Dose Rate (LDR) Brachytherapy of Brain Stem using Cesium 131 (Cs-131)
+Add:         D016B6Z LDR Brachytherapy of Spinal Cord using Cesium 131            Low Dose Rate (LDR) Brachytherapy of Spinal Cord using Cesium 131 (Cs-131)
+Add:         D017B6Z LDR Brachytherapy of Peripheral Nerve using Cesium 131       Low Dose Rate (LDR) Brachytherapy of Peripheral Nerve using Cesium 131 (Cs-131)
+Add:         D0Y0CZZ Intraoperative Radiation Therapy (IORT) of Brain             Intraoperative Radiation Therapy (IORT) of Brain
+Add:         D0Y1CZZ Intraoperative Radiation Therapy (IORT) of Brain Stem        Intraoperative Radiation Therapy (IORT) of Brain Stem
+Add:         D0Y6CZZ Intraoperative Radiation Therapy (IORT) of Spinal Cord       Intraoperative Radiation Therapy (IORT) of Spinal Cord
+Add:         D0Y7CZZ Intraoperative Radiation Therapy (IORT) of Peripheral Nerve  Intraoperative Radiation Therapy (IORT) of Peripheral Nerve
+Add:         D710B6Z LDR Brachytherapy of Bone Marrow using Cesium 131            Low Dose Rate (LDR) Brachytherapy of Bone Marrow using Cesium 131 (Cs-131)
+Add:         D711B6Z Low Dose Rate (LDR) Brachytherapy of Thymus using Cesium 131 Low Dose Rate (LDR) Brachytherapy of Thymus using Cesium 131 (Cs-131)
+Add:         D712B6Z Low Dose Rate (LDR) Brachytherapy of Spleen using Cesium 131 Low Dose Rate (LDR) Brachytherapy of Spleen using Cesium 131 (Cs-131)
+Add:         D713B6Z LDR Brachytherapy of Neck Lymph using Cesium 131             Low Dose Rate (LDR) Brachytherapy of Neck Lymphatics using Cesium 131 (Cs-131)
+Add:         D714B6Z LDR Brachytherapy of Axilla Lymph using Cesium 131           Low Dose Rate (LDR) Brachytherapy of Axillary Lymphatics using Cesium 131 (Cs-131)
+Add:         D715B6Z LDR Brachytherapy of Thorax Lymph using Cesium 131           Low Dose Rate (LDR) Brachytherapy of Thorax Lymphatics using Cesium 131 (Cs-131)
+Add:         D716B6Z LDR Brachytherapy of Abd Lymph using Cesium 131              Low Dose Rate (LDR) Brachytherapy of Abdomen Lymphatics using Cesium 131 (Cs-131)
+Add:         D717B6Z LDR Brachytherapy of Pelvis Lymph using Cesium 131           Low Dose Rate (LDR) Brachytherapy of Pelvis Lymphatics using Cesium 131 (Cs-131)
+Add:         D718B6Z LDR Brachytherapy of Inguinal Lymph using Cesium 131         Low Dose Rate (LDR) Brachytherapy of Inguinal Lymphatics using Cesium 131 (Cs-131)
+Add:         D810B6Z Low Dose Rate (LDR) Brachytherapy of Eye using Cesium 131    Low Dose Rate (LDR) Brachytherapy of Eye using Cesium 131 (Cs-131)
+Add:         D910B6Z Low Dose Rate (LDR) Brachytherapy of Ear using Cesium 131    Low Dose Rate (LDR) Brachytherapy of Ear using Cesium 131 (Cs-131)
+Add:         D911B6Z Low Dose Rate (LDR) Brachytherapy of Nose using Cesium 131   Low Dose Rate (LDR) Brachytherapy of Nose using Cesium 131 (Cs-131)
+Add:         D913B6Z LDR Brachytherapy of Hypopharynx using Cesium 131            Low Dose Rate (LDR) Brachytherapy of Hypopharynx using Cesium 131 (Cs-131)
+Add:         D914B6Z Low Dose Rate (LDR) Brachytherapy of Mouth using Cesium 131  Low Dose Rate (LDR) Brachytherapy of Mouth using Cesium 131 (Cs-131)
+Add:         D915B6Z Low Dose Rate (LDR) Brachytherapy of Tongue using Cesium 131 Low Dose Rate (LDR) Brachytherapy of Tongue using Cesium 131 (Cs-131)
+Add:         D916B6Z LDR Brachytherapy of Salivary Gland using Cesium 131         Low Dose Rate (LDR) Brachytherapy of Salivary Glands using Cesium 131 (Cs-131)
+Add:         D917B6Z LDR Brachytherapy of Sinuses using Cesium 131                Low Dose Rate (LDR) Brachytherapy of Sinuses using Cesium 131 (Cs-131)
+Add:         D918B6Z LDR Brachytherapy of Hard Palate using Cesium 131            Low Dose Rate (LDR) Brachytherapy of Hard Palate using Cesium 131 (Cs-131)
+Add:         D919B6Z LDR Brachytherapy of Soft Palate using Cesium 131            Low Dose Rate (LDR) Brachytherapy of Soft Palate using Cesium 131 (Cs-131)
+Add:         D91BB6Z Low Dose Rate (LDR) Brachytherapy of Larynx using Cesium 131 Low Dose Rate (LDR) Brachytherapy of Larynx using Cesium 131 (Cs-131)
+Add:         D91DB6Z LDR Brachytherapy of Nasopharynx using Cesium 131            Low Dose Rate (LDR) Brachytherapy of Nasopharynx using Cesium 131 (Cs-131)
+Add:         D91FB6Z LDR Brachytherapy of Oropharynx using Cesium 131             Low Dose Rate (LDR) Brachytherapy of Oropharynx using Cesium 131 (Cs-131)
+Add:         DB10B6Z LDR Brachytherapy of Trachea using Cesium 131                Low Dose Rate (LDR) Brachytherapy of Trachea using Cesium 131 (Cs-131)
+Add:         DB11B6Z LDR Brachytherapy of Bronchus using Cesium 131               Low Dose Rate (LDR) Brachytherapy of Bronchus using Cesium 131 (Cs-131)
+Add:         DB12B6Z Low Dose Rate (LDR) Brachytherapy of Lung using Cesium 131   Low Dose Rate (LDR) Brachytherapy of Lung using Cesium 131 (Cs-131)
+Add:         DB15B6Z Low Dose Rate (LDR) Brachytherapy of Pleura using Cesium 131 Low Dose Rate (LDR) Brachytherapy of Pleura using Cesium 131 (Cs-131)
+Add:         DB16B6Z LDR Brachytherapy of Mediastinum using Cesium 131            Low Dose Rate (LDR) Brachytherapy of Mediastinum using Cesium 131 (Cs-131)
+Add:         DB17B6Z LDR Brachytherapy of Chest Wall using Cesium 131             Low Dose Rate (LDR) Brachytherapy of Chest Wall using Cesium 131 (Cs-131)
+Add:         DB18B6Z LDR Brachytherapy of Diaphragm using Cesium 131              Low Dose Rate (LDR) Brachytherapy of Diaphragm using Cesium 131 (Cs-131)
+Add:         DD10B6Z LDR Brachytherapy of Esophagus using Cesium 131              Low Dose Rate (LDR) Brachytherapy of Esophagus using Cesium 131 (Cs-131)
+Add:         DD11B6Z LDR Brachytherapy of Stomach using Cesium 131                Low Dose Rate (LDR) Brachytherapy of Stomach using Cesium 131 (Cs-131)
+Add:         DD12B6Z LDR Brachytherapy of Duodenum using Cesium 131               Low Dose Rate (LDR) Brachytherapy of Duodenum using Cesium 131 (Cs-131)
+Add:         DD13B6Z LDR Brachytherapy of Jejunum using Cesium 131                Low Dose Rate (LDR) Brachytherapy of Jejunum using Cesium 131 (Cs-131)
+Add:         DD14B6Z Low Dose Rate (LDR) Brachytherapy of Ileum using Cesium 131  Low Dose Rate (LDR) Brachytherapy of Ileum using Cesium 131 (Cs-131)
+Add:         DD15B6Z Low Dose Rate (LDR) Brachytherapy of Colon using Cesium 131  Low Dose Rate (LDR) Brachytherapy of Colon using Cesium 131 (Cs-131)
+Add:         DD17B6Z Low Dose Rate (LDR) Brachytherapy of Rectum using Cesium 131 Low Dose Rate (LDR) Brachytherapy of Rectum using Cesium 131 (Cs-131)
+Add:         DF10B6Z Low Dose Rate (LDR) Brachytherapy of Liver using Cesium 131  Low Dose Rate (LDR) Brachytherapy of Liver using Cesium 131 (Cs-131)
+Add:         DF11B6Z LDR Brachytherapy of Gallbladder using Cesium 131            Low Dose Rate (LDR) Brachytherapy of Gallbladder using Cesium 131 (Cs-131)
+Add:         DF12B6Z LDR Brachytherapy of Bile Ducts using Cesium 131             Low Dose Rate (LDR) Brachytherapy of Bile Ducts using Cesium 131 (Cs-131)
+Add:         DF13B6Z LDR Brachytherapy of Pancreas using Cesium 131               Low Dose Rate (LDR) Brachytherapy of Pancreas using Cesium 131 (Cs-131)
+Add:         DG10B6Z LDR Brachytherapy of Pituitary Gland using Cesium 131        Low Dose Rate (LDR) Brachytherapy of Pituitary Gland using Cesium 131 (Cs-131)
+Add:         DG11B6Z LDR Brachytherapy of Pineal Body using Cesium 131            Low Dose Rate (LDR) Brachytherapy of Pineal Body using Cesium 131 (Cs-131)
+Add:         DG12B6Z LDR Brachytherapy of Adrenal Glands using Cesium 131         Low Dose Rate (LDR) Brachytherapy of Adrenal Glands using Cesium 131 (Cs-131)
+Add:         DG14B6Z LDR Brachytherapy of Parathyroid Glands using Cesium 131     Low Dose Rate (LDR) Brachytherapy of Parathyroid Glands using Cesium 131 (Cs-131)
+Add:         DG15B6Z LDR Brachytherapy of Thyroid using Cesium 131                Low Dose Rate (LDR) Brachytherapy of Thyroid using Cesium 131 (Cs-131)
+Add:         DM10B6Z LDR Brachytherapy of L Breast using Cesium 131               Low Dose Rate (LDR) Brachytherapy of Left Breast using Cesium 131 (Cs-131)
+Add:         DM11B6Z LDR Brachytherapy of R Breast using Cesium 131               Low Dose Rate (LDR) Brachytherapy of Right Breast using Cesium 131 (Cs-131)
+Add:         DT10B6Z Low Dose Rate (LDR) Brachytherapy of Kidney using Cesium 131 Low Dose Rate (LDR) Brachytherapy of Kidney using Cesium 131 (Cs-131)
+Add:         DT11B6Z Low Dose Rate (LDR) Brachytherapy of Ureter using Cesium 131 Low Dose Rate (LDR) Brachytherapy of Ureter using Cesium 131 (Cs-131)
+Add:         DT12B6Z LDR Brachytherapy of Bladder using Cesium 131                Low Dose Rate (LDR) Brachytherapy of Bladder using Cesium 131 (Cs-131)
+Add:         DT13B6Z LDR Brachytherapy of Urethra using Cesium 131                Low Dose Rate (LDR) Brachytherapy of Urethra using Cesium 131 (Cs-131)
+Add:         DU10B6Z Low Dose Rate (LDR) Brachytherapy of Ovary using Cesium 131  Low Dose Rate (LDR) Brachytherapy of Ovary using Cesium 131 (Cs-131)
+Add:         DU11B6Z Low Dose Rate (LDR) Brachytherapy of Cervix using Cesium 131 Low Dose Rate (LDR) Brachytherapy of Cervix using Cesium 131 (Cs-131)
+Add:         DU12B6Z Low Dose Rate (LDR) Brachytherapy of Uterus using Cesium 131 Low Dose Rate (LDR) Brachytherapy of Uterus using Cesium 131 (Cs-131)
+Add:         DV10B6Z LDR Brachytherapy of Prostate using Cesium 131               Low Dose Rate (LDR) Brachytherapy of Prostate using Cesium 131 (Cs-131)
+Add:         DV11B6Z Low Dose Rate (LDR) Brachytherapy of Testis using Cesium 131 Low Dose Rate (LDR) Brachytherapy of Testis using Cesium 131 (Cs-131)
+Add:         DW11B6Z LDR Brachytherapy of Head & Neck using Cesium 131            Low Dose Rate (LDR) Brachytherapy of Head and Neck using Cesium 131 (Cs-131)
+Add:         DW12B6Z Low Dose Rate (LDR) Brachytherapy of Chest using Cesium 131  Low Dose Rate (LDR) Brachytherapy of Chest using Cesium 131 (Cs-131)
+Add:         DW13B6Z Low Dose Rate (LDR) Brachytherapy of Abd using Cesium 131    Low Dose Rate (LDR) Brachytherapy of Abdomen using Cesium 131 (Cs-131)
+Add:         DW16B6Z LDR Brachytherapy of Pelvic Region using Cesium 131          Low Dose Rate (LDR) Brachytherapy of Pelvic Region using Cesium 131 (Cs-131)
+Add:         X2AH336 EC Flw Revrs from R Com Carot, Perc Approach, New Tech 6     Cerebral Embolic Filtration, Extracorporeal Flow Reversal Circuit from Right Common Carotid Artery, Percutaneous Approach, New Technology Group 6
+Add:         X2AJ336 EC Flw Revrs from L Com Carot Art, Perc Approach, New Tech 6 Cerebral Embolic Filtration, Extracorporeal Flow Reversal Circuit from Left Common Carotid Artery, Percutaneous Approach, New Technology Group 6
+Add:         XNU     New Technology, Bones, Supplement                            New Technology, Bones, Supplement
+Add:         XNU0356 Supplement Lum Vert w Mech Expnd Pair, Perc, New Tech 6      Supplement Lumbar Vertebra with Mechanically Expandable (Paired) Synthetic Substitute, Percutaneous Approach, New Technology Group 6
+Add:         XNU4356 Supplement Thor Vert w Mech Expnd Pair, Perc, New Tech 6     Supplement Thoracic Vertebra with Mechanically Expandable (Paired) Synthetic Substitute, Percutaneous Approach, New Technology Group 6
+Add:         XW013F5 Introduce New Tech Therap in Subcu, Perc, New Tech 5         Introduction of Other New Technology Therapeutic Substance into Subcutaneous Tissue, Percutaneous Approach, New Technology Group 5
+Add:         XW013H6 Introduce Monclon Antib in Subcu, Perc, New Tech 6           Introduction of Other New Technology Monoclonal Antibody into Subcutaneous Tissue, Percutaneous Approach, New Technology Group 6
+Add:         XW013K6 Introduce Leronlimab in Subcu, Perc, New Tech 6              Introduction of Leronlimab Monoclonal Antibody into Subcutaneous Tissue, Percutaneous Approach, New Technology Group 6
+Add:         XW013S6 Introduce COVID19 Vacc Ds1 in Subcu, Perc, New Tech 6        Introduction of COVID-19 Vaccine Dose 1 into Subcutaneous Tissue, Percutaneous Approach, New Technology Group 6
+Add:         XW013T6 Introduce COVID19 Vacc Ds2 in Subcu, Perc, New Tech 6        Introduction of COVID-19 Vaccine Dose 2 into Subcutaneous Tissue, Percutaneous Approach, New Technology Group 6
+Add:         XW013U6 Introduce COVID19 Vacc in Subcu, Perc, New Tech 6            Introduction of COVID-19 Vaccine into Subcutaneous Tissue, Percutaneous Approach, New Technology Group 6
+Add:         XW023S6 Introduce COVID19 Vacc Ds1 in Muscle, Perc, New Tech 6       Introduction of COVID-19 Vaccine Dose 1 into Muscle, Percutaneous Approach, New Technology Group 6
+Add:         XW023T6 Introduce COVID19 Vacc Ds2 in Muscle, Perc, New Tech 6       Introduction of COVID-19 Vaccine Dose 2 into Muscle, Percutaneous Approach, New Technology Group 6
+Add:         XW023U6 Introduce COVID19 Vacc in Muscle, Perc, New Tech 6           Introduction of COVID-19 Vaccine into Muscle, Percutaneous Approach, New Technology Group 6
+Add:         XW03306 Introduce Brexanolone in Periph Vein, Perc, New Tech 6       Introduction of Brexanolone into Peripheral Vein, Percutaneous Approach, New Technology Group 6
+Add:         XW03326 Introduce Nerinitide in Periph Vein, Perc, New Tech 6        Introduction of Nerinitide into Peripheral Vein, Percutaneous Approach, New Technology Group 6
+Add:         XW03336 Introduce Durvalumab in Periph Vein, Perc, New Tech 6        Introduction of Durvalumab Antineoplastic into Peripheral Vein, Percutaneous Approach, New Technology Group 6
+Add:         XW03366 Introduce Lefamulin in Periph Vein, Perc, New Tech 6         Introduction of Lefamulin Anti-infective into Peripheral Vein, Percutaneous Approach, New Technology Group 6
+Add:         XW03396 Introduce Ceftoloz/Tazobac in Periph Vein, Perc, New Tech 6  Introduction of Ceftolozane/Tazobactam Anti-infective into Peripheral Vein, Percutaneous Approach, New Technology Group 6
+Add:         XW033A6 Introduce Cefiderocol in Periph Vein, Perc, New Tech 6       Introduction of Cefiderocol Anti-infective into Peripheral Vein, Percutaneous Approach, New Technology Group 6
+Add:         XW033B6 Introduce Omadacycline in Periph Vein, Perc, New Tech 6      Introduction of Omadacycline Anti-infective into Peripheral Vein, Percutaneous Approach, New Technology Group 6
+Add:         XW033C6 Introduce Eculizumab in Periph Vein, Perc, New Tech 6        Introduction of Eculizumab into Peripheral Vein, Percutaneous Approach, New Technology Group 6
+Add:         XW033D6 Introduce Atezolizumab in Periph Vein, Perc, New Tech 6      Introduction of Atezolizumab Antineoplastic into Peripheral Vein, Percutaneous Approach, New Technology Group 6
+Add:         XW033E5 Introduce Remdesivir in Periph Vein, Perc, New Tech 5        Introduction of Remdesivir Anti-infective into Peripheral Vein, Percutaneous Approach, New Technology Group 5
+Add:         XW033E6 Introduce Etesevimab in Periph Vein, Perc, New Tech 6        Introduction of Etesevimab Monoclonal Antibody into Peripheral Vein, Percutaneous Approach, New Technology Group 6
+Add:         XW033F5 Introduce New Tech Therap in Periph Vein, Perc, New Tech 5   Introduction of Other New Technology Therapeutic Substance into Peripheral Vein, Percutaneous Approach, New Technology Group 5
+Add:         XW033F6 Introduce Bamlanivimab in Periph Vein, Perc, New Tech 6      Introduction of Bamlanivimab Monoclonal Antibody into Peripheral Vein, Percutaneous Approach, New Technology Group 6
+Add:         XW033G5 Introduce Sarilumab in Periph Vein, Perc, New Tech 5         Introduction of Sarilumab into Peripheral Vein, Percutaneous Approach, New Technology Group 5
+Add:         XW033G6 Introduce REGN-COV2 in Periph Vein, Perc, New Tech 6         Introduction of REGN-COV2 Monoclonal Antibody into Peripheral Vein, Percutaneous Approach, New Technology Group 6
+Add:         XW033H5 Introduce Tocilizumab in Periph Vein, Perc, New Tech 5       Introduction of Tocilizumab into Peripheral Vein, Percutaneous Approach, New Technology Group 5
+Add:         XW033H6 Introduce Monclon Antib in Periph Vein, Perc, New Tech 6     Introduction of Other New Technology Monoclonal Antibody into Peripheral Vein, Percutaneous Approach, New Technology Group 6
+Add:         XW033L6 Introduce CD24Fc in Periph Vein, Perc, New Tech 6            Introduction of CD24Fc Immunomodulator into Peripheral Vein, Percutaneous Approach, New Technology Group 6
+Add:         XW04306 Introduce Brexanolone in Central Vein, Perc, New Tech 6      Introduction of Brexanolone into Central Vein, Percutaneous Approach, New Technology Group 6
+Add:         XW04326 Introduce Nerinitide in Central Vein, Perc, New Tech 6       Introduction of Nerinitide into Central Vein, Percutaneous Approach, New Technology Group 6
+Add:         XW04336 Introduce Durvalumab in Central Vein, Perc, New Tech 6       Introduction of Durvalumab Antineoplastic into Central Vein, Percutaneous Approach, New Technology Group 6
+Add:         XW04366 Introduce Lefamulin in Central Vein, Perc, New Tech 6        Introduction of Lefamulin Anti-infective into Central Vein, Percutaneous Approach, New Technology Group 6
+Add:         XW04396 Introduce Ceftoloz/Tazobac in Central Vein, Perc, New Tech 6 Introduction of Ceftolozane/Tazobactam Anti-infective into Central Vein, Percutaneous Approach, New Technology Group 6
+Add:         XW043A6 Introduce Cefiderocol in Central Vein, Perc, New Tech 6      Introduction of Cefiderocol Anti-infective into Central Vein, Percutaneous Approach, New Technology Group 6
+Add:         XW043B6 Introduce Omadacycline in Central Vein, Perc, New Tech 6     Introduction of Omadacycline Anti-infective into Central Vein, Percutaneous Approach, New Technology Group 6
+Add:         XW043C6 Introduce Eculizumab in Central Vein, Perc, New Tech 6       Introduction of Eculizumab into Central Vein, Percutaneous Approach, New Technology Group 6
+Add:         XW043D6 Introduce Atezolizumab in Central Vein, Perc, New Tech 6     Introduction of Atezolizumab Antineoplastic into Central Vein, Percutaneous Approach, New Technology Group 6
+Add:         XW043E5 Introduce Remdesivir in Central Vein, Perc, New Tech 5       Introduction of Remdesivir Anti-infective into Central Vein, Percutaneous Approach, New Technology Group 5
+Add:         XW043E6 Introduce Etesevimab in Central Vein, Perc, New Tech 6       Introduction of Etesevimab Monoclonal Antibody into Central Vein, Percutaneous Approach, New Technology Group 6
+Add:         XW043F5 Introduce New Tech Therap in Central Vein, Perc, New Tech 5  Introduction of Other New Technology Therapeutic Substance into Central Vein, Percutaneous Approach, New Technology Group 5
+Add:         XW043F6 Introduce Bamlanivimab in Central Vein, Perc, New Tech 6     Introduction of Bamlanivimab Monoclonal Antibody into Central Vein, Percutaneous Approach, New Technology Group 6
+Add:         XW043G5 Introduce Sarilumab in Central Vein, Perc, New Tech 5        Introduction of Sarilumab into Central Vein, Percutaneous Approach, New Technology Group 5
+Add:         XW043G6 Introduce REGN-COV2 in Central Vein, Perc, New Tech 6        Introduction of REGN-COV2 Monoclonal Antibody into Central Vein, Percutaneous Approach, New Technology Group 6
+Add:         XW043H5 Introduce Tocilizumab in Central Vein, Perc, New Tech 5      Introduction of Tocilizumab into Central Vein, Percutaneous Approach, New Technology Group 5
+Add:         XW043H6 Introduce Monclon Antib in Central Vein, Perc, New Tech 6    Introduction of Other New Technology Monoclonal Antibody into Central Vein, Percutaneous Approach, New Technology Group 6
+Add:         XW043L6 Introduce CD24Fc in Central Vein, Perc, New Tech 6           Introduction of CD24Fc Immunomodulator into Central Vein, Percutaneous Approach, New Technology Group 6
+Add:         XW097M5 Introduce Esketamine Hcl in Nose, Via Opening, New Tech 5    Introduction of Esketamine Hydrochloride into Nose, Via Natural or Artificial Opening, New Technology Group 5
+Add:         XW0DX66 Introduce Lefamulin in Mouth/Phar, Extern, New Tech 6        Introduction of Lefamulin Anti-infective into Mouth and Pharynx, External Approach, New Technology Group 6
+Add:         XW0DXF5 Introduce New Tech Therap in Mouth/Phar, Extern, New Tech 5  Introduction of Other New Technology Therapeutic Substance into Mouth and Pharynx, External Approach, New Technology Group 5
+Add:         XW0DXM6 Introduce Baricitinib in Mouth/Phar, Extern, New Tech 6      Introduction of Baricitinib into Mouth and Pharynx, External Approach, New Technology Group 6
+Add:         XW0G7M6 Introduce of Baricitinib into Up GI, Via Opening, New Tech 6 Introduction of Baricitinib into Upper GI, Via Natural or Artificial Opening, New Technology Group 6
+Add:         XW0G886 Introduce Mineral Topic Hemostat in Up GI, Endo, New Tech 6  Introduction of Mineral-based Topical Hemostatic Agent into Upper GI, Via Natural or Artificial Opening Endoscopic, New Technology Group 6
+Add:         XW0H7M6 Introduce Baricitinib in Low GI, Via Opening, New Tech 6     Introduction of Baricitinib into Lower GI, Via Natural or Artificial Opening, New Technology Group 6
+Add:         XW0H886 Introduce Mineral Topic Hemostat in Low GI, Endo, New Tech 6 Introduction of Mineral-based Topical Hemostatic Agent into Lower GI, Via Natural or Artificial Opening Endoscopic, New Technology Group 6
+Add:         XW0Q316 Introduce Elado exupar in Cranial/Brain, Perc, New Tech 6    Introduction of Eladocagene exuparvovec into Cranial Cavity and Brain, Percutaneous Approach, New Technology Group 6
+Add:         XW1     New Technology, Anatomical Regions, Transfusion              New Technology, Anatomical Regions, Transfusion
+Add:         XW13325 Transfuse Convalesc Plasma in Periph Vein, Perc, New Tech 5  Transfusion of Convalescent Plasma (Nonautologous) into Peripheral Vein, Percutaneous Approach, New Technology Group 5
+Add:         XW14325 Transfuse Convalesc Plasma in Central Vein, Perc, New Tech 5 Transfusion of Convalescent Plasma (Nonautologous) into Central Vein, Percutaneous Approach, New Technology Group 5
+Add:         XW2     New Technology, Anatomical Regions, Transfusion              New Technology, Anatomical Regions, Transfusion
+Add:         XW23346 Transfuse Brexcab Autoleuc in Periph Vein, Perc, New Tech 6  Transfusion of Brexucabtagene Autoleucel Immunotherapy into Peripheral Vein, Percutaneous Approach, New Technology Group 6
+Add:         XW23376 Transfuse Lisocab Maraleuc in Periph Vein, Perc, New Tech 6  Transfusion of Lisocabtagene Maraleucel Immunotherapy into Peripheral Vein, Percutaneous Approach, New Technology Group 6
+Add:         XW24346 Transfuse Brexcab Autoleuc in Central Vein, Perc, New Tech 6 Transfusion of Brexucabtagene Autoleucel Immunotherapy into Central Vein, Percutaneous Approach, New Technology Group 6
+Add:         XW24376 Transfuse Lisocab Maraleuc in Central Vein, Perc, New Tech 6 Transfusion of Lisocabtagene Maraleucel Immunotherapy into Central Vein, Percutaneous Approach, New Technology Group 6
+Add:         XXE5XN6 Measurement of Pos BC Fluoresc Hybrid ID/AST, New Tech 6     Measurement of Infection, Positive Blood Culture Fluorescence Hybridization for Organism Identification, Concentration and Susceptibility, New Technology Group 6
+Add:         XXEBXQ6 Measure of Infect, Lwr Resp Fld Microb Detect, New Tech 6    Measurement of Infection, Lower Respiratory Fluid Nucleic Acid-base Microbial Detection, New Technology Group 6
+
+Headers
+    880 headers in icd10pcs_order_2020.txt
+    890 headers in icd10pcs_order_2021.txt
+     10 additions
+      0 deletions
+      0 revisions
+    of which
+      0 revisions to both long and short titles
+      0 revisions to long title only
+      0 revisions to short title only
+
+Codes
+  77559 codes in icd10pcs_order_2020.txt
+  78136 codes in icd10pcs_order_2021.txt
+    577 additions
+      0 deletions
+      0 revisions
+    of which
+      0 revisions to both long and short titles
+      0 revisions to long title only
+      0 revisions to short title only

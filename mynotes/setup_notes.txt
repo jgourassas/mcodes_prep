@@ -1,0 +1,36 @@
+
+
+--You can skip the the tranformation from XML Files to Postgresql Tables
+  by runing the script db_ready/to_mcodes_dev witch inserts the data to the PG
+  and you are ready for the queries
+
+First Downloaded from 
+https://www.cms.gov/medicare/icd-10/2021-icd-10-cm/2021 Code Tables, Tabular and Index – Updated 12/16/2020 (ZIP)
+AND 
+https://www.cms.gov/medicare/icd-10/2021-icd-10-pcs/2021 ICD-10-PCS Order File (Long and Abbreviated Titles) - Updated December 1, 2020 (ZIP)
+THEN
+
+run the commands:
+ mix deps.get
+ mix ecto.create
+ mix ecto.migrate
+ build the project: ./build_escript.sh 
+ run it by: ./mcodes_prep. Then h for help
+
+============================ 
+N.B.
+ICD-10-CM, PCS is available from the CDC FTP server
+There are comming: 
+1. As structured XML data format 
+2. As PDF for viewing. 
+3. As  fixed width text format that includes primarily just the codes and titles from the tabular part
+   of ICD-10-CM and ICD-10-PCS
+   
+There is not a database version, but the fixed width description order files could be readily loaded into a database system.
+
+*In this Software The XML files were used for ICD-10-CM 
+              (As alternative you can use the Fixed format)
+*The fixed format was used for ICD-10-PCS
+
+Enjoy!!
+By J.G ( jgourassas at gmail)

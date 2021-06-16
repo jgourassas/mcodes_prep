@@ -7,7 +7,7 @@ defmodule McodesPrep.MakeIcd10pcsIndex do
 
 
   def set_pcs_index_xml_file do
-    IO.gets("\t Location of ICD10-PCS INDEX XML file i.e: data/icd10pcs_index_2018.xml  > ")  |> String.trim
+    IO.gets("\t Location of ICD10-PCS INDEX XML file i.e: data/icd10pcs_index_2021.xml  > ")  |> String.trim
   end
   ########################
   def pcs_index_xml_file do

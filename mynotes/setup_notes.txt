@@ -2,20 +2,35 @@
 
 --You can skip the the tranformation from XML Files to Postgresql Tables
   by runing the script db_ready/to_mcodes_dev witch inserts the data to the PG
-  and you are ready for the queries
+  and you are ready for the queries. In this step you don't need to run ecto.migrate
+  
 
 First Downloaded from 
 https://www.cms.gov/medicare/icd-10/2021-icd-10-cm/2021 Code Tables, Tabular and Index – Updated 12/16/2020 (ZIP)
 AND 
 https://www.cms.gov/medicare/icd-10/2021-icd-10-pcs/2021 ICD-10-PCS Order File (Long and Abbreviated Titles) - Updated December 1, 2020 (ZIP)
 THEN
+ You need the files:
+
+ icd10cm_drug_2021.xml
+ icd10cm_eindex_2021.xml
+ icd10cm_index_2021.xml
+ icd10cm_neoplasm_2021.xml
+ icd10cm_tabular_2021.xml
+ 
+ icd10pcs_definitions_2021.xml
+ icd10pcs_index_2021.xml
+ icd10pcs_order_2021.txt
+ icd10pcs_order_transformed.txt
+ icd10pcs_tables_2021.xml
 
 run the commands:
  mix deps.get
  mix ecto.create
- mix ecto.migrate
+ --Optional mix ecto.migrate
  build the project: ./build_escript.sh 
  run it by: ./mcodes_prep. Then h for help
+
 
 ============================ 
 N.B.

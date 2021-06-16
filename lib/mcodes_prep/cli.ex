@@ -20,7 +20,7 @@ defmodule McodesPrep.Cli do
 
 
   def main(_) do
-    say_message("ICD-10 XML files to  PG plus Search (by J.G.)")
+    say_message("Transform ICD-10 XML files to  Postgresql Tables and then Search (by J.G.)")
     say_message("Type help / h for the available commands. q To Quit")
     if IO.ANSI.enabled?() == false do
       colorize_text("alert", "Please Enable IO.ANSI")
@@ -63,6 +63,7 @@ defmodule McodesPrep.Cli do
   def stop() do
     System.halt()
   end
+
   def cm2pg() do
     MakeIcd10cm.make_alternative()
     #MakeIcd10cm.make_cm_orders()
@@ -83,7 +84,6 @@ defmodule McodesPrep.Cli do
     MakeIcd10pcsIndex.make_pcs_index()
     MakeIcd10pcsDefs.make_pcs_defs()
     MakeIcd10pcsAggregates.make_pcs_agg()
-
   end
 
   def cm_search() do

@@ -5,31 +5,48 @@ defmodule McodesPrep.MakeIcd10pcs do
   require Logger
   import  McodesPrep.Utils
   alias   McodesPrep.Utils, as: Utils
+  import  ProgressBar 
+
+  ##########################
+  _format = [
+    bar_color: [IO.ANSI.green_background],
+    blank_color: [IO.ANSI.red_background],
+    bar: " ",
+    blank: " ",
+    left: " ", right: " ",
+  ]
   #####################
   def make_pcs_orders do
-    colorize_text("default", "--- I will prepare  the ICD-10-PCS order file to ^ delemited  ---" )
+    colorize_text("default", "--- I will prepare  the ICD-10-PCS order file to ^ delemited\n
+      ICD-10-PCS order files contain a unique order number  \n
+      a flag distinguishing valid codes from headers, and both long and short descriptions \n" )
     response = ask_user()
     case response do
       "Y" ->
-        pcs_order_string = IO.gets("\t Location of ICD10-PCS order file i.e:  data/icd10pcs_order_YEAR.txt > ")  |> String.trim
+        pcs_order_string = IO.gets("\t Location of ICD10-PCS order file i.e:  data/icd10pcs_order_2021.txt > ")  |> String.trim
         f_order = file_existance(pcs_order_string)
         output_file = "data/icd10pcs_order_transformed.txt"
         f_order |> Stream.map(fn(line) ->
           #The order files for ICD10CM and IC10PCS
           # have the same structure
-          slice_line_orders(line)
+          #slice_line_orders(line)
+           Utils.slice_line_orders(line)
+
         end)
         |> Stream.into( File.stream!(output_file) )
         |> Stream.run
         colorize_text("info",
           "
-          Order Icd10PCS File was prepared for storage in the icd10pcs postgresql table\n
+          Now the Order Icd10PCS File was prepared for storage in the icd10pcs postgresql table\n
           The file is locate in data/icd10pcs_order_transformed.txt\n
-          psql mcodes_prep_repo
+          -----------------------------------------------------------------\n
+          From command mode in the terminal do: psql mcodes_prep_repo
           \copy icd10pcs(order_number, icd10pcs_code, is_header, short_description, long_description)
-          FROM '/YourDir/data/icd10pcs_order_transformed.txt' with delimiter '^';
-
-")
+          FROM 'data/icd10pcs_order_transformed.txt' with delimiter '^';\n
+          -------------------------------------------------------------------\n
+          If you finished with this  we are going to proceed to the next level building the\n
+          codes for axis fields that means the section, body_system, body_part, approach and device\n
+          ")
       "N" ->
         colorize_text("default", "--- O.K No hard fillings  ---" )
 
@@ -46,13 +63,11 @@ defmodule McodesPrep.MakeIcd10pcs do
   def pcs_xml_file do
     pcs_file_string = set_pcs_xml_file()
     file_existance(pcs_file_string)
-
-    #File.stream!("data/icd10pcs_tables_2017.xml")
   end
 
   def set_pcs_xml_file do
     # IO.gets("data/icd10pcs_tables_2017.xml") |> String.trim
-    IO.gets("\t Location of ICD10-PCS XML file i.e: data/icd10pcs_tables_2018.xml > ")  |> String.trim
+    IO.gets("\t Location of ICD10-PCS XML file i.e: data/icd10pcs_tables_2021.xml > ")  |> String.trim
   end
   #####################
   @doc """
@@ -132,7 +147,7 @@ defmodule McodesPrep.MakeIcd10pcs do
         bp_axis_field = "body_part"
         bp_axis_value = a_body_part_code
         bp_axis_title_field = "body_part_title"
-        bp_axis_title_value = a_part[:body_part_title]
+        bp_axis_title_value = a_part[:body_part_title] |> String.trim()
         bp_code = body_part_code
         #IO.inspect "Body Part Value " <> bp_axis_value <> " Title: " <> bp_axis_title_value
 
@@ -148,7 +163,7 @@ defmodule McodesPrep.MakeIcd10pcs do
           ap_axis_field = "approach"
           ap_axis_value = an_approach_code
           ap_axis_title_field = "approach_title"
-          ap_axis_title_value = an_approach[:approach_title]
+          ap_axis_title_value = an_approach[:approach_title] |> String.trim()
           ap_code = approach_code
 
           update_axis_field_titles(ap_axis_field, ap_axis_value, ap_axis_title_field, ap_axis_title_value, ap_code )
@@ -157,15 +172,21 @@ defmodule McodesPrep.MakeIcd10pcs do
           device_l =  a_row[:device_l]
 
           Enum.map(device_l, fn(device) ->
-            a_device_code =  device[:device]
+            a_device_code =  device[:device] |> String.trim()
             device_code =  approach_code <> a_device_code
 
             d_axis_field = "device"
             d_axis_value = a_device_code
             d_axis_title_field = "device_title"
-            d_axis_title_value = device[:device_title]
+            d_axis_title_value = device[:device_title] |> String.trim()
             d_code = device_code
-
+            
+            #IO.inspect(d_axis_field)
+            #IO.inspect(d_axis_value)
+            #IO.inspect(d_axis_title_field)
+            #IO.inspect(d_axis_title_value)
+            #IO.inspect(String.length(d_axis_title_value))
+            colorize_text("default", "Building titles for Codes: \t" <> d_code )
 
             update_axis_field_titles(d_axis_field, d_axis_value, d_axis_title_field, d_axis_title_value, d_code )
 
@@ -180,7 +201,7 @@ defmodule McodesPrep.MakeIcd10pcs do
               q_axis_field = "qualifier"
               q_axis_value = a_qualifier_code
               q_axis_title_field = "qualifier_title"
-              q_axis_title_value = qualifier[:qualifier_title]
+              q_axis_title_value = qualifier[:qualifier_title]|> String.trim()
               q_code = qualifier_code
 
               update_axis_field_titles(q_axis_field, q_axis_value, q_axis_title_field, q_axis_title_value, q_code )
@@ -200,7 +221,7 @@ defmodule McodesPrep.MakeIcd10pcs do
   ################
   def get_pcs_from_tabular(list) do
 
-    section_l= list[:section_l]
+    section_l= list[:section_l] 
     body_system_l = list[:body_system_l]
     root_operation_l = list[:root_operation_l]
     code_l = section_l ++ body_system_l ++ root_operation_l
@@ -212,8 +233,13 @@ defmodule McodesPrep.MakeIcd10pcs do
     a_body_system_title = a_body_system[:body_system_title]
     a_root_op_title = a_root_op[:root_operation_title]
 
-    colorize_text("default", "Updating ilike Codes: \t" <> icd10pcs_code_1 )
-
+    #colorize_text("default", "Updating titles for Code: \t" <> icd10pcs_code_1 )
+    ##Progressbar
+  
+  #Enum.each 1..100, fn (i) ->
+  #ProgressBar.render(i, 100)
+  #:timer.sleep 25
+  #end
     update_axis_field_titles("section", a_section[:section], "section_title", a_section_title, icd10pcs_code_1)
     update_axis_field_titles("body_system", a_body_system[:body_system], "body_system_title", a_body_system_title, icd10pcs_code_1)
     update_axis_field_titles("root_operation", a_root_op[:root_operation], "root_operation_title", a_root_op_title, icd10pcs_code_1)
@@ -319,15 +345,35 @@ defmodule McodesPrep.MakeIcd10pcs do
   ################
   ##########################
   def make_all_pcs_set_axis_titles() do
-    colorize_text("alert", "--- Parsing axis titles of ICD-10-PCS. Estimated Time: 12 hours. Sorry!!!!  " )
+    colorize_text("alert", "--- Updating  axis titles of ICD-10-PCS. \n
+    as section_title, body_system_title, body_part_title etc\n
+    Estimated Time: 12 unacceptable hours. Sorry!!!! \n
+      Im stuck I can't find an other solution for the time being " )
 
     response = ask_user()
     case response do
       "Y" ->
         colorize_text("default", "Seting Field Titles. Please Be Patient")
         pcs_as_list = pcs_xml_list()
+        pcs_as_list_reverse = Enum.reverse(pcs_as_list)
+       # pcs_as_list = pcs_xml_list()
 
-        Enum.each(pcs_as_list, fn(a_map) -> get_pcs_from_tabular(a_map) end )
+
+       #pcs_as_list_len = Enum.count(pcs_as_list)
+        #IO.puts("---------Total list len -------------------------")
+        #IO.inspect(pcs_as_list_len)
+
+
+#Enum.each 1..pcs_as_list_len, fn (i) ->
+#  ProgressBar.render(i, pcs_as_list_len)
+#  :timer.sleep 30
+#end
+
+    Enum.each(pcs_as_list_reverse, fn(a_map) -> 
+#        Enum.each(pcs_as_list, fn(a_map) -> 
+         get_pcs_from_tabular(a_map) 
+        
+        end )
 
       "N" ->
         colorize_text("default", "---O.K. No Hard Fillings ---")
@@ -477,6 +523,7 @@ defmodule McodesPrep.MakeIcd10pcs do
 
   end#show_pcs_record
   #####################
+  
 
 
 end##module

@@ -5,7 +5,7 @@ defmodule McodesPrep.MakeIcd10pcsDefs do
   import  McodesPrep.Utils
 
   def set_pcs_defs_xml_file do
-    IO.gets("\t Location of ICD10-PCS DEFINITIONS XML file i.e: data/icd10pcs_definitions_2018.xml
+    IO.gets("\t Location of ICD10-PCS DEFINITIONS XML file i.e: data/icd10pcs_definitions_2021.xml
     > ")  |> String.trim
   end
   ########################

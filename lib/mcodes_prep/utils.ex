@@ -12,7 +12,7 @@ defmodule McodesPrep.Utils do
   end
 
   def get_response(query) do
-    response = IO.gets( "\t " <> IO.ANSI.cyan() <> "#{query} >  " <> IO.ANSI.default_color())
+    _response = IO.gets( "\t " <> IO.ANSI.cyan() <> "#{query} >  " <> IO.ANSI.default_color())
     |> String.trim |> String.upcase
 
   end
@@ -110,7 +110,7 @@ defmodule McodesPrep.Utils do
     long_description = String.slice(line, 77..250)##it may be 77..300
     |> String.trim_trailing
 
-    new_line = order_number
+    _new_line = order_number
     <>"^"
     <> icd10cm_code
     <>"^"
@@ -174,7 +174,7 @@ defmodule McodesPrep.Utils do
     long_description = String.slice(line, 77..250)##it may be 77..300
     |> String.trim_trailing
 
-    new_line = order_number
+    _new_line = order_number
     <>"^"
     <> icd10_code
     <>"^"
@@ -188,7 +188,7 @@ defmodule McodesPrep.Utils do
   end
   #######################
   def level_intend(term_level) do
-    intend = case term_level do
+    _intend = case term_level do
                "1" ->
                  #IO.ANSI.cyan()  <> "-"  <> IO.ANSI.reset# it breaks the TableRe
                 "\u27A4" #is ok bold arrow 

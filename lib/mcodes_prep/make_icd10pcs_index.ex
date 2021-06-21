@@ -7,7 +7,7 @@ defmodule McodesPrep.MakeIcd10pcsIndex do
 
 
   def set_pcs_index_xml_file do
-    IO.gets("\t Location of ICD10-PCS INDEX XML file i.e: data/icd10pcs_index_2021.xml  > ")  |> String.trim
+    IO.gets("\t Location of ICD10-PCS INDEX XML file i.e: data/icd10pcs_index_2022.xml  > ")  |> String.trim
   end
   ########################
   def pcs_index_xml_file do
@@ -235,7 +235,7 @@ defmodule McodesPrep.MakeIcd10pcsIndex do
       if  Enum.any?(terms_l) do
         Enum.map(terms_l, fn(terms) ->
           title_l = Enum.map(terms, fn (x) -> x["term_title"] end)
-          for title <- title_l do 
+          for title <- title_l do
            if title  == "#{organ_field}" do
               colorize_text("alert","**************")
               inspect_data(terms)

@@ -10,7 +10,7 @@ defmodule McodesPrep.MakeIcd10cmIndex do
 
 
   def set_cm_index_xml_file do
-    IO.gets("\t Location of ICD10-PCS INDEX XML file i.e: data/icd10cm_index_2021.xml  > ")  |> String.trim
+    IO.gets("\t Location of ICD10-PCS INDEX XML file i.e: data/icd10cm_index_2022.xml  > ")  |> String.trim
   end
   ########################
   def cm_index_xml_file do
@@ -153,7 +153,7 @@ defmodule McodesPrep.MakeIcd10cmIndex do
       else
         " "
      end
-    
+
     colorize_text("main_term",
       IO.ANSI.italic()
       <> IO.ANSI.blue()
@@ -218,8 +218,8 @@ defmodule McodesPrep.MakeIcd10cmIndex do
        " "
     end
     ##############################################3
-    
-   
+
+
     colorize_text("default_write", intend
       <> "#{term_title}"
       <> " " <> "#{term_nemod}"

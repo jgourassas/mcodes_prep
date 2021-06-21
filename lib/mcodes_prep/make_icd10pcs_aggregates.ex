@@ -6,7 +6,7 @@ defmodule McodesPrep.MakeIcd10pcsAggregates do
   import  McodesPrep.Utils
 
   def set_pcs_agg_xml_file do
-    IO.gets("\t Location of ICD10-PCS DEFINITIONS XML file i.e: data/icd10pcs_definitions_2021.xml
+    IO.gets("\t Location of ICD10-PCS DEFINITIONS XML file i.e: data/icd10pcs_definitions_2022.xml
     > ")  |> String.trim
   end
   ########################
@@ -141,6 +141,6 @@ def search_pcs_aggregates do
 ###############
 def format_record(title) do
  IO.puts IO.ANSI.blue_background() <> IO.ANSI.white() <> " ❄❄❄ Device: #{title} ❄❄❄ " <> IO.ANSI.reset
-end  
+end
 ##############################
 end # module

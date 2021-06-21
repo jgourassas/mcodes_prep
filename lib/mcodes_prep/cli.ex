@@ -14,7 +14,7 @@ defmodule McodesPrep.Cli do
     MakeIcd10cmEindex,
     MakeIcd10cmDindex,
     MakeCtd
-   
+
   }
 
 
@@ -112,14 +112,14 @@ defmodule McodesPrep.Cli do
   end
 
   def pcs_agg_search() do
-    MakeIcd10pcsAggregates.search_pcs_aggregates()                  
+    MakeIcd10pcsAggregates.search_pcs_aggregates()
   end
 
   def cmind_search do
     MakeIcd10cmIndex.search_cm_index()
   end
 
-  
+
   def cmns_search do
     MakeIcd10cmNeoplasms.search_cm_neoplasms()
   end
@@ -156,13 +156,13 @@ defmodule McodesPrep.Cli do
     * ctds    : c[Comparative] t[Toxicogenomics] d[Database] s[Search]
     * ------- Search In pcs[ICD-10-PCS], s[Serch]-----------------------------------*
     * pcss    : pcs s[Search]
-    * pcsvsr  : pcs v[View]  s[Single] r[Record]. Search giving a Code 
+    * pcsvsr  : pcs v[View]  s[Single] r[Record]. Search giving a Code
     * pcsinds : pcs ind[Index] s[Search]
     * pcsds   : pcs d[Definitions] s[Search]
     * pcsas   : pcs a[Aggregates] s[Search]
     * -----------------------------------------------------------------*
-    * help / h : print this message
-    * exit / q : exit this application
+    * help  h : print this message
+    * exit  q : exit this application
     * -----------------------------------------------------------------*
     ")
 

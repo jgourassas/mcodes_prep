@@ -7,7 +7,7 @@ defmodule McodesPrep.MakeIcd10cmNeoplasms do
   alias   McodesPrep.Utils, as: Utils
 
   def set_neoplasm_xml_file do
-    IO.gets("\t Location of ICD-10-CM INDEX XML file i.e: data/icd10cm_neoplasm_2021.xml  > ")  |> String.trim
+    IO.gets("\t Location of ICD-10-CM INDEX XML file i.e: data/icd10cm_neoplasm_2022.xml  > ")  |> String.trim
   end
   ########################
   def neoplasm_xml_file  do

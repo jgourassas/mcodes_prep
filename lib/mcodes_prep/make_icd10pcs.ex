@@ -5,7 +5,7 @@ defmodule McodesPrep.MakeIcd10pcs do
   require Logger
   import  McodesPrep.Utils
   alias   McodesPrep.Utils, as: Utils
-  import  ProgressBar 
+  import  ProgressBar
 
   ##########################
   _format = [
@@ -23,10 +23,11 @@ defmodule McodesPrep.MakeIcd10pcs do
     response = ask_user()
     case response do
       "Y" ->
-        pcs_order_string = IO.gets("\t Location of ICD10-PCS order file i.e:  data/icd10pcs_order_2021.txt > ")  |> String.trim
+        pcs_order_string = IO.gets("\t Location of ICD10-PCS order file i.e:  data/icd10pcs_order_2022.txt > ")  |> String.trim
         f_order = file_existance(pcs_order_string)
         output_file = "data/icd10pcs_order_transformed.txt"
         f_order |> Stream.map(fn(line) ->
+
           #The order files for ICD10CM and IC10PCS
           # have the same structure
           #slice_line_orders(line)
@@ -35,7 +36,7 @@ defmodule McodesPrep.MakeIcd10pcs do
         end)
         |> Stream.into( File.stream!(output_file) )
         |> Stream.run
-        colorize_text("info",
+        colorize_text("alert",
           "
           Now the Order Icd10PCS File was prepared for storage in the icd10pcs postgresql table\n
           The file is locate in data/icd10pcs_order_transformed.txt\n
@@ -63,17 +64,28 @@ defmodule McodesPrep.MakeIcd10pcs do
   def pcs_xml_file do
     pcs_file_string = set_pcs_xml_file()
     file_existance(pcs_file_string)
+
   end
 
   def set_pcs_xml_file do
     # IO.gets("data/icd10pcs_tables_2017.xml") |> String.trim
-    IO.gets("\t Location of ICD10-PCS XML file i.e: data/icd10pcs_tables_2021.xml > ")  |> String.trim
+    IO.gets("\t Location of ICD10-PCS XML file i.e: data/icd10pcs_tables_2022.xml > ")  |> String.trim
   end
   #####################
   @doc """
 
-  We start from pcsTable. Each pcsTable has One section + section_title,
-  One body_system + body_system_title, One root_operation + root_operation_title
+  We start from pcsTable.
+  Each pcsTable has
+
+  axis pos=1:Section
+  axis pos=2: Body System
+  axis pos=3: Operation
+  axis pos =4: Body Part
+  axis pos = 5:  Approach
+  axis pos = 6: Device
+  axis pos = 7: Qualifier
+
+
   But many pcsRow. Each pcsRow contains a list of body_parts, approaches, devices and qualifiers
   Example
   <pcsTable>
@@ -180,7 +192,7 @@ defmodule McodesPrep.MakeIcd10pcs do
             d_axis_title_field = "device_title"
             d_axis_title_value = device[:device_title] |> String.trim()
             d_code = device_code
-            
+
             #IO.inspect(d_axis_field)
             #IO.inspect(d_axis_value)
             #IO.inspect(d_axis_title_field)
@@ -221,7 +233,7 @@ defmodule McodesPrep.MakeIcd10pcs do
   ################
   def get_pcs_from_tabular(list) do
 
-    section_l= list[:section_l] 
+    section_l= list[:section_l]
     body_system_l = list[:body_system_l]
     root_operation_l = list[:root_operation_l]
     code_l = section_l ++ body_system_l ++ root_operation_l
@@ -235,7 +247,7 @@ defmodule McodesPrep.MakeIcd10pcs do
 
     #colorize_text("default", "Updating titles for Code: \t" <> icd10pcs_code_1 )
     ##Progressbar
-  
+
   #Enum.each 1..100, fn (i) ->
   #ProgressBar.render(i, 100)
   #:timer.sleep 25
@@ -345,10 +357,10 @@ defmodule McodesPrep.MakeIcd10pcs do
   ################
   ##########################
   def make_all_pcs_set_axis_titles() do
-    colorize_text("alert", "--- Updating  axis titles of ICD-10-PCS. \n
+    colorize_text("alert", "Updating  axis titles of ICD-10-PCS. \n
     as section_title, body_system_title, body_part_title etc\n
     Estimated Time: 12 unacceptable hours. Sorry!!!! \n
-      Im stuck I can't find an other solution for the time being " )
+    Im stucked I can't find an other solution for the time being " )
 
     response = ask_user()
     case response do
@@ -356,24 +368,20 @@ defmodule McodesPrep.MakeIcd10pcs do
         colorize_text("default", "Seting Field Titles. Please Be Patient")
         pcs_as_list = pcs_xml_list()
         pcs_as_list_reverse = Enum.reverse(pcs_as_list)
-       # pcs_as_list = pcs_xml_list()
-
-
-       #pcs_as_list_len = Enum.count(pcs_as_list)
+        #pcs_as_list_len = Enum.count(pcs_as_list)
         #IO.puts("---------Total list len -------------------------")
         #IO.inspect(pcs_as_list_len)
 
+        #Enum.each 1..pcs_as_list_len, fn (i) ->
+        #  ProgressBar.render(i, pcs_as_list_len)
+        #  :timer.sleep 30
+        #end
 
-#Enum.each 1..pcs_as_list_len, fn (i) ->
-#  ProgressBar.render(i, pcs_as_list_len)
-#  :timer.sleep 30
-#end
+    Enum.each(pcs_as_list_reverse, fn(a_map) ->
+      #Task.async_stream(1..pcs_as_list_len, get_pcs_from_tabular(a_map), max_concurrency: 10)
+      get_pcs_from_tabular(a_map)
 
-    Enum.each(pcs_as_list_reverse, fn(a_map) -> 
-#        Enum.each(pcs_as_list, fn(a_map) -> 
-         get_pcs_from_tabular(a_map) 
-        
-        end )
+    end )
 
       "N" ->
         colorize_text("default", "---O.K. No Hard Fillings ---")
@@ -518,12 +526,12 @@ defmodule McodesPrep.MakeIcd10pcs do
 
         colorize_text("alert", "No Records Found")
     end#if any record
- 
+
     response_options()
 
   end#show_pcs_record
   #####################
-  
+
 
 
 end##module

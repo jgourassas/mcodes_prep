@@ -13,7 +13,7 @@ defmodule McodesPrep.MakeIcd10cmDindex do
 
 
   def set_dindex_xml_file do
-    IO.gets("\t Location of ICD10-CM DRUG INDEX XML file i.e: data/icd10cm_drug_2021.xml  > ")  |> String.trim
+    IO.gets("\t Location of ICD10-CM DRUG INDEX XML file i.e: data/icd10cm_drug_2022.xml  > ")  |> String.trim
   end
   ########################
   def dindex_xml_file  do
@@ -61,16 +61,16 @@ end
 
 defp insert_dindex(map) do
 main_terms_l = map[:main_terms_l]
-   
+
     Enum.each(main_terms_l, fn(main_term) ->
-       
+
        main_title = main_term[:main_title]
-       colorize_text("default", "Inserting Main Title: " <> "#{main_title}") 
-       
+       colorize_text("default", "Inserting Main Title: " <> "#{main_title}")
+
        terms_map =   main_term |> Iteraptor.to_flatmap
 
        # {:ok, inserted} =
-       McodesPrep.Repo.insert(%McodesPrep.Icd10cmDindex{title: main_title, 
+       McodesPrep.Repo.insert(%McodesPrep.Icd10cmDindex{title: main_title,
           main_term: terms_map})
 
 end)##Enum.each
@@ -109,7 +109,7 @@ def search_dindex()  do
       Ecto.Query.from p in McodesPrep.Icd10cmDindex,
       order_by: [asc: p.title],
       where: fragment("(?) @@ plainto_tsquery(?)", p.title,   ^("#{main_term_field}%")  ),
-      select: %{main_term: fragment("? ", p.main_term), 
+      select: %{main_term: fragment("? ", p.main_term),
                 title: fragment(" ? ",  p.title)
       },
       limit: 10
@@ -146,7 +146,7 @@ def search_dindex()  do
         MakeIcd10cm.search_icd10cm()
       "N" ->
         colorize_text("default", "Ok. help for options, q to Quit")
-      
+
       _ ->
         colorize_text("default", "Ok. help for options, q to Quit")
         McodesPrep.Cli.loop()
@@ -177,51 +177,51 @@ defp show_tabular(term) do
 
       main_see_also =   if "#{main_see_also_probe}" != "" do
         #IO.ANSI.light_blue() <> "-See Also "  <> "#{main_see_also_probe}" <> IO.ANSI.normal()
-        "-See Also "  <> "#{main_see_also_probe}" 
+        "-See Also "  <> "#{main_see_also_probe}"
       else
         " "
       end
 
 
-      main_title = term[:main_title] 
+      main_title = term[:main_title]
                    <> term[:main_nemod]
-                   <> " " 
+                   <> " "
                    <> "#{main_see}"
-                   <> " " 
-                   <> "#{main_see_also}" 
+                   <> " "
+                   <> "#{main_see_also}"
 
 
   ########################
   main_cell_l = term[:main_cell_l]
-  
+
    if main_cell_l != nil do
-    
+
     main_cell_row = Enum.reduce(main_cell_l, [], fn(x, acc) ->
-           [ x[:main_cell_code] | acc ]  
+           [ x[:main_cell_code] | acc ]
        end)
-   
+
     main_cell_row_ordered = main_cell_row |> Enum.reverse
-    
+
     main_row = [main_title | main_cell_row_ordered]
 
      Agent.update(dindex_agent, fn dindex_row -> [main_row | dindex_row] end)
- 
+
     else
       main_row = [main_title | []]
      Agent.update(dindex_agent, fn dindex_row -> [main_row | dindex_row] end)
 
    end#if main
 
-   
+
   terms_l = term[:terms_l]
-    
+
   if terms_l != nil do
-  
+
   Enum.each(terms_l, fn(term) ->
      term_a = term[:term]
-    
+
     for a  <- term_a do
-    term_level = a[:term_level] 
+    term_level = a[:term_level]
     intend = Utils.level_intend(term_level)
     term_see_probe =   a[:term_see]
     term_see_also_probe = a[:term_see_also]
@@ -239,23 +239,23 @@ defp show_tabular(term) do
       else
          " "
       end
-   
-     term_title = intend <> a[:term_title] 
+
+     term_title = intend <> a[:term_title]
                    <> a[:term_nemod]
-                   <> " " 
+                   <> " "
                    <> "#{term_see}"
-                   <> " " 
-                   <> "#{term_see_also}" 
+                   <> " "
+                   <> "#{term_see_also}"
 
 
 
     ##############
     term_cell_row = Enum.reduce(term_cell_l, [], fn(x, acc) ->
-           [ x[:cell_code] | acc ]  
+           [ x[:cell_code] | acc ]
        end)
-   
+
     term_cell_row_ordered = term_cell_row |> Enum.reverse
-    
+
     term_row = [term_title | term_cell_row_ordered]
 
     Agent.update(dindex_agent, fn dindex_row -> [term_row | dindex_row] end)
@@ -263,18 +263,18 @@ defp show_tabular(term) do
      end
 
   end) #Enum terms_l
-  
+
   end# if terms_l
 
 
-  
-  
+
+
   table_rex_rows =    Agent.get(dindex_agent, fn dindex_row -> dindex_row end)
-  rex_rows = table_rex_rows |> Enum.reverse()  
+  rex_rows = table_rex_rows |> Enum.reverse()
   title = "-------Poisoning------"
   header = ["Substance",  "Accidental", "Intentional", "Assault" ,"Undetermined",
             "Adverse effect ", "Underdosing"]
-  
+
      Table.new(rex_rows, header, title)
 |> Table.put_header_meta(0..6, color: IO.ANSI.color(31))
 |> Table.put_column_meta(0, align: :left, padding: 5) # `0` is the column index.
@@ -294,4 +294,3 @@ end
 
 ###################
 end# module
-

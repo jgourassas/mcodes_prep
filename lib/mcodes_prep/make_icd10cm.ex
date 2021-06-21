@@ -22,7 +22,7 @@ defmodule McodesPrep.MakeIcd10cm do
 
   """
   def xml_file do
-    tabular_file_string =IO.gets("\t Location of Tabular File i.e. : data/icd10cm_tabular_2021.xml > ")  |> String.trim
+    tabular_file_string =IO.gets("\t Location of Tabular File i.e. : data/icd10cm_tabular_2022.xml > ")  |> String.trim
     file_existance(tabular_file_string)
   end
 
@@ -487,7 +487,7 @@ defmodule McodesPrep.MakeIcd10cm do
 
     if Enum.any?(records) do
       table_data_l = Enum.reduce(records, [], fn(x, acc) ->
-      
+
       if x !== nil do
         {:ok, cm_graphics_agent} = Agent.start_link fn ->  "" end
 
@@ -504,7 +504,7 @@ defmodule McodesPrep.MakeIcd10cm do
       table_data = Enum.reverse(table_data_l)
       print_results_title(term)
       Utils.present_tablerex(table_data, header, title)
-   
+
 
     else
       colorize_text("alert", "Nothing Found")
@@ -517,7 +517,7 @@ defmodule McodesPrep.MakeIcd10cm do
 
    for x <- x_data do
      {key, value} = x
-       
+
       if value !== ""  do
         pick_symbol(key, cm_graphics_agent)
       end# if
@@ -530,11 +530,11 @@ defmodule McodesPrep.MakeIcd10cm do
 cond do
           key == :codealso ->
 
-            code_also = " " <> "ca" 
+            code_also = " " <> "ca"
             Agent.update(cm_graphics_agent, fn graphics -> code_also <> graphics end)
 
            key == :codefirst ->
-            code_first =  " " <> "cf" 
+            code_first =  " " <> "cf"
             Agent.update(cm_graphics_agent, fn graphics -> code_first <>  graphics end)
 
           key == :excludes1  ->
@@ -542,11 +542,11 @@ cond do
          Agent.update(cm_graphics_agent, fn graphics -> ex1 <>  graphics end)
 
           key == :excludes2 ->
-            ex2 =  " " <> "ex2" 
+            ex2 =  " " <> "ex2"
            Agent.update(cm_graphics_agent, fn graphics -> ex2 <> graphics  end)
 
           key == :includes ->
-            includes =  " " <> "inc" 
+            includes =  " " <> "inc"
             Agent.update(cm_graphics_agent, fn graphics -> includes <>  graphics  end)
 
           key == :inclusionterm ->
@@ -554,7 +554,7 @@ cond do
           Agent.update(cm_graphics_agent, fn graphics -> inclusion_term <>  graphics  end)
 
           key == :useadditionalcode ->
-            useadditionalcode =  " " <>   "uaC" 
+            useadditionalcode =  " " <>   "uaC"
             Agent.update(cm_graphics_agent, fn graphics ->   useadditionalcode <> graphics end)
 
           true ->

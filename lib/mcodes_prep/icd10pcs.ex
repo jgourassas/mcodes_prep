@@ -19,30 +19,30 @@ defmodule McodesPrep.Icd10pcs do
     field :approach, :string, size: 1
     field :approach_title, :string, size:  100
     field :device, :string, size: 1
-    field :device_title, :string, size: 100
+    field :device_title, :string, size: 180
     field :qualifier, :string, size: 1
     field :qualifier_title, :string, size: 100
   end
 
   def changeset(struct, params \\ %{}) do
     struct
-    |> cast(params, [:order_number, 
-          :icd10pcs_code, 
-          :icd10pcs_code_2_ltree, 
-          :is_header, 
+    |> cast(params, [:order_number,
+          :icd10pcs_code,
+          :icd10pcs_code_2_ltree,
+          :is_header,
           :short_description,
           :long_description,
-          :section, 
-          :section_title, 
+          :section,
+          :section_title,
           :body_system,
           :body_system_title,
           :root_operation,
           :root_operation_title,
           :body_part,
-          :body_part_title, 
+          :body_part_title,
           :approach,
           :approach_title,
-          :device, 
+          :device,
           :device_title,
           :qualifier,
           :qualifier_title

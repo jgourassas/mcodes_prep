@@ -6,11 +6,23 @@
 
 #### You need 
 * A working installation of elixir and postgresql
-* https://www.cms.gov/medicare/icd-10/20XX-icd-10-cm/20XX Code Tables, Tabular and Index – Updated 12/16/20xx (ZIP)
-* https://www.cms.gov/medicare/icd-10/20XX-icd-10-pcs/20XX ICD-10-PCS Order File (Long and Abbreviated Titles) - Updated December 1, 20xx (ZIP)
+
+* https://www.cms.gov/medicare/icd-10/2021-icd-10-cm Code Tables, Tabular and Index –
+* https://www.cms.gov/medicare/icd-10/2022-icd-10-pcs/20XX ICD-10-PCS Order File (Long and Abbreviated Titles) - Updated December 1, 20xx (ZIP)
 * http://ctdbase.org/downloads/CTD_diseases.csv.gz :: gzip -d CTD_diseases.csv.gz
 
 #### Unzip the files to data directory
+
+#### For ICD-10-CM You need the files
+icd10cm_tabular_2021.xml
+
+
+##### For ICD-10-PCS of the Year 2022 You need the files
+* icd10pcs_order_2022.txt
+* icd10pcs_tables_2022.xm
+* icd10pcs_index_2022.xml 
+* icd10pcs_definitions_2022.xml
+
 
 #### In the main Dir issue the commands 
 

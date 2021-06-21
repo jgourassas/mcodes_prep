@@ -9,7 +9,7 @@ defmodule McodesPrep.MakeIcd10cmEindex do
 
 
   def set_cm_eindex_xml_file do
-    IO.gets("\t Location of ICD-10-CM EINDEX XML file i.e: data/icd10cm_eindex_2021.xml  > ")  |> String.trim
+    IO.gets("\t Location of ICD-10-CM EINDEX XML file i.e: data/icd10cm_eindex_2022.xml  > ")  |> String.trim
   end
   ########################
   def cm_eindex_xml_file do
@@ -80,10 +80,10 @@ defmodule McodesPrep.MakeIcd10cmEindex do
     main_term_l = map[:main_term_l]
     Enum.map(main_term_l, fn(l) ->
       title = l[:main_title]
-      
+
       inspect_data(title)
-      # {:ok, inserted} = 
-      McodesPrep.Repo.insert(%McodesPrep.Icd10cmEindex{title: title, 
+      # {:ok, inserted} =
+      McodesPrep.Repo.insert(%McodesPrep.Icd10cmEindex{title: title,
       main_term_jsonb: l})
     end )
 
@@ -128,7 +128,7 @@ defmodule McodesPrep.MakeIcd10cmEindex do
   end
   ###############
 defp format_record(records) do
- 
+
     Enum.map(records, fn(l) ->
       terms_l = Enum.map(l, fn (x) -> x["terms_l"] end)
 
@@ -187,11 +187,11 @@ end# function format record
 
 
     term_level = a["term_level"]
-    
-    intend = Utils.level_intend(term_level)
-   
 
-    term_title = a["term_title"] 
+    intend = Utils.level_intend(term_level)
+
+
+    term_title = a["term_title"]
     term_nemod = a["term_nemod"]
     term_codes = a["term_codes"]
     term_use_probe = a["term_use"]
@@ -199,7 +199,7 @@ end# function format record
     term_see_codes = a["term_see_codes"]
     term_see_tab  = a["term_see_tab"]
     term_code = a["term_code"]
-    
+
     term_use = if "#{term_use_probe}" != "" do
       IO.ANSI.italic() <> " use " <> IO.ANSI.not_italic() <> "#{term_use_probe}"
     else
@@ -212,9 +212,9 @@ end# function format record
     end
 
     ##############################################3
-    
+
     colorize_text("default_write", intend
-      <> "#{term_title}" 
+      <> "#{term_title}"
       <> " " <> "#{term_nemod}"
       <> " " <> "#{term_use}"
       <> IO.ANSI.bright()
@@ -237,4 +237,3 @@ end# function format record
 
 ##############
 end# module
-

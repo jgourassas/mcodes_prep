@@ -1,6 +1,7 @@
-## Mcodes_prep is a CLI application that  transforms ICD-10-CM and ICD-10-PCS xml files to Postgres Tables
+## Mcodes_prep is a CLI application (No web) that  transforms ICD-10-CM and ICD-10-PCS xml files to Postgres Tables
 
-### After Transformation you can search The Postgresql tables  in a Terminal
+### After Transformation you can search in a Terminal for a Disease Code, an Operation and for a disease synonym
+
 
 ### Setup
 
@@ -10,7 +11,7 @@
 * https://www.cms.gov/medicare/icd-10/2021-icd-10-cm Code Tables, Tabular and Index –
 * https://www.cms.gov/medicare/icd-10/2022-icd-10-pcs/20XX ICD-10-PCS Order File (Long and Abbreviated Titles) - Updated December 1, 20xx (ZIP)
 * http://ctdbase.org/downloads/CTD_diseases.csv.gz :: gzip -d CTD_diseases.csv.gz
-
+* https://www.fda.gov/drugs/drug-approvals-and-databases/national-drug-code-directory
 #### Unzip the files to data directory
 
 #### For ICD-10-CM You need the files
@@ -23,6 +24,9 @@ icd10cm_tabular_2021.xml
 * icd10pcs_index_2022.xml 
 * icd10pcs_definitions_2022.xml
 
+##### For NDC  You need the files
+* package.txt           
+* product.txt  
 
 #### In the main Dir issue the commands 
 

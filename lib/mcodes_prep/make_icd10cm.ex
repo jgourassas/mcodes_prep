@@ -76,7 +76,7 @@ defmodule McodesPrep.MakeIcd10cm do
     case response do
       "Y" ->
         #order_file_string = set_order_file()
-        order_file_string = IO.gets("\t Location of order File i.e. : data/icd10cm_order_2017.txt > ")  |> String.trim
+        order_file_string = IO.gets("\t Location of order File i.e. : data/icd10cm_order_2022.txt > ")  |> String.trim
 
         f_order =   file_existance(order_file_string)
         output_file = "data/icd10cm_order_transformed.txt"

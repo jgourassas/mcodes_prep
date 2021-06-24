@@ -11,3 +11,5 @@ pg_dump --attribute-inserts  --no-owner --data-only --no-privileges  -v mcodes_p
 pg_dump --attribute-inserts  --no-owner --data-only --no-privileges  -v mcodes_prep_repo  -t icd10pcs_defs >  icd10pcs_defs_data.sql 
 pg_dump --attribute-inserts  --no-owner --data-only --no-privileges  -v mcodes_prep_repo  -t icd10pcs_aggregates >  icd10pcs_aggregates_data.sql 
 pg_dump --attribute-inserts  --no-owner --data-only --no-privileges  -v mcodes_prep_repo  -t  icd10pcs_index > icd10pcs_index_data.sql
+pg_dump --attribute-inserts  --no-owner --data-only --no-privileges  -v mcodes_prep_repo  -t   ndc_products >  ndc_products_data.sql
+pg_dump --attribute-inserts  --no-owner --data-only --no-privileges  -v mcodes_prep_repo  -t   ndc_packages >  ndc_packages_data.sql

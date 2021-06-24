@@ -12,7 +12,7 @@ defmodule McodesPrep.Utils do
   end
 
   def get_response(query) do
-    _response = IO.gets( "\t " <> IO.ANSI.cyan() <> "#{query} >  " <> IO.ANSI.default_color())
+    _response = IO.gets( "\t " <> IO.ANSI.default_color() <> "#{query} >  " <> IO.ANSI.default_color())
     |> String.trim |> String.upcase
 
   end
@@ -41,12 +41,12 @@ defmodule McodesPrep.Utils do
       #  |> Bunt.puts
 
       "default" ->
-        [:color244,  " #{text} "]
+        [:black,  " #{text} "]
         |> Bunt.puts
 
 
       "default_write" ->
-        [:color244,   " #{text} "]
+        [:black,   " #{text} "]
         |> Bunt.write
 
       "success" ->
@@ -244,7 +244,7 @@ defmodule McodesPrep.Utils do
   end
 
   def print_element(data, title) do
-    carret_replacment =  IO.ANSI.cyan() <>  " \u25AE"  <> IO.ANSI.default_color() <> ""
+    carret_replacment =  IO.ANSI.red() <>  " \u25AE"  <> IO.ANSI.default_color() <> ""
     an_element  =  String.replace(data, "^", carret_replacment)
 
     colorize_text("default",

@@ -13,8 +13,8 @@ defmodule McodesPrep.Cli do
     MakeIcd10cmIndex,
     MakeIcd10cmEindex,
     MakeIcd10cmDindex,
-    MakeCtd
-
+    MakeCtd,
+    SearchNdc
   }
 
 
@@ -51,6 +51,7 @@ defmodule McodesPrep.Cli do
       "pcsds" -> pcs_defs_search()
       "pcsas" -> pcs_agg_search()
       "pcsvsr" -> pcsvsr_search()
+      "ndcs" -> ndc_search()
       "help" -> print_help()
       "h"    -> print_help()
       "exit" -> stop()
@@ -135,6 +136,10 @@ defmodule McodesPrep.Cli do
     MakeCtd.search_ctd()
   end
 
+ def ndc_search do
+    SearchNdc.search_ndc()
+  end
+
 
 
 
@@ -153,13 +158,15 @@ defmodule McodesPrep.Cli do
     * cmns    : cm n[Neoplasms] s[Search]
     * cmeinds : cm e[External] ind[Index] s[Search]
     * cmdinds : cm d[Drug] ind[Index] s[Search]
-    * ctds    : c[Comparative] t[Toxicogenomics] d[Database] s[Search]
+    * ctds    : c[Comparative] t[Toxicogenomics] d[Database] s[Search], For synonyms
     * ------- Search In pcs[ICD-10-PCS], s[Serch]-----------------------------------*
     * pcss    : pcs s[Search]
     * pcsvsr  : pcs v[View]  s[Single] r[Record]. Search giving a Code
     * pcsinds : pcs ind[Index] s[Search]
     * pcsds   : pcs d[Definitions] s[Search]
     * pcsas   : pcs a[Aggregates] s[Search]
+    * ------- Search in NDC-------------------------------------------------------*
+    * ndcs    : ndc s[Search]
     * -----------------------------------------------------------------*
     * help  h : print this message
     * exit  q : exit this application

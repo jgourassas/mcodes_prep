@@ -1,13 +1,13 @@
-## Mcodes_prep is a CLI application (No web) that  transforms ICD-10-CM and ICD-10-PCS xml files to Postgres Tables
+## Mcodes_prep is a CLI application (Elixir - No web) that  transforms ICD-10-CM and ICD-10-PCS xml files to Postgres Tables
 
-### After Transformation you can search in a Terminal for a Disease Code, an Operation and for a disease synonym
+### After Transformation you can search in a Terminal for a Disease Code, an Operation and for a disease synonym. NDC - National Drug Catalog was Added
 
 
 ### Setup
 
 #### You need 
 * A working installation of elixir and postgresql
-
+* Before to download please install Git Large File Storage - LFS
 * https://www.cms.gov/medicare/icd-10/2021-icd-10-cm Code Tables, Tabular and Index –
 * https://www.cms.gov/medicare/icd-10/2022-icd-10-pcs/20XX ICD-10-PCS Order File (Long and Abbreviated Titles) - Updated December 1, 20xx (ZIP)
 * http://ctdbase.org/downloads/CTD_diseases.csv.gz :: gzip -d CTD_diseases.csv.gz

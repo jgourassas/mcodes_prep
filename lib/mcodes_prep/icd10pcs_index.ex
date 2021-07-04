@@ -1,22 +1,20 @@
 defmodule McodesPrep.Icd10pcsIndex do
-
   use Ecto.Schema
-  import Ecto.Changeset # This is the one that includes cast
+  # This is the one that includes cast
+  import Ecto.Changeset
+
   schema "icd10pcs_index" do
-    field :title, :string
-    field :main_term, :map
-    field :title_tsv, :string
-  end#schema
-  
-   def changeset(struct, params \\ %{}) do
+    field(:title, :string)
+    field(:main_term, :map)
+    field(:title_tsv, :string)
+  end
+
+  # schema
+
+  def changeset(struct, params \\ %{}) do
     struct
-    |> cast(params, [:title,
-                     :main_term,
-                     :title_tsv ])
-                     
-   end
+    |> cast(params, [:title, :main_term, :title_tsv])
+  end
+end
 
-  
-  end#module
-
-
+# module

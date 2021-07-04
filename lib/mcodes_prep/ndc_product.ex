@@ -1,29 +1,28 @@
-
 defmodule McodesPrep.Ndc_product do
   use Ecto.Schema
   import Ecto.Changeset
 
   schema "ndc_products" do
-    field :productid, :string
-    field :productndc, :string
-    field :producttypename, :string
-    field :proprietaryname, :string
-    field :proprietarynamesuffix, :string
-    field :nonproprietaryname, :string
-    field :dosageforname, :string
-    field :routename, :string
-    field :startmarketingdate, :string
-    field :endmargetingdate, :string
-    field :marketingcategoryname, :string
-    field :applicationnumber, :string
-    field :labelname, :string
-    field :substancename, :string
-    field :active_numerator_strength, :string
-    field :active_ingred_unit, :string
-    field :pharm_classes, :string
-    field :deaschedule, :string
-    field :ndc_exlude_flag, :string
-    field :listing_record_certified_through, :string
+    field(:productid, :string)
+    field(:productndc, :string)
+    field(:producttypename, :string)
+    field(:proprietaryname, :string)
+    field(:proprietarynamesuffix, :string)
+    field(:nonproprietaryname, :string)
+    field(:dosageforname, :string)
+    field(:routename, :string)
+    field(:startmarketingdate, :string)
+    field(:endmargetingdate, :string)
+    field(:marketingcategoryname, :string)
+    field(:applicationnumber, :string)
+    field(:labelname, :string)
+    field(:substancename, :string)
+    field(:active_numerator_strength, :string)
+    field(:active_ingred_unit, :string)
+    field(:pharm_classes, :string)
+    field(:deaschedule, :string)
+    field(:ndc_exlude_flag, :string)
+    field(:listing_record_certified_through, :string)
 
     has_many(
       :ndc_packages,

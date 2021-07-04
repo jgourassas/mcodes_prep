@@ -1,17 +1,16 @@
 defmodule McodesPrep.Ndc_package do
   use Ecto.Schema
   import Ecto.Changeset
-  
 
   schema "ndc_packages" do
-    field :endmarketingdate, :string
-    field :ndc_exclude_flag, :string
-    field :ndcpackagecode, :string
-    field :packagedescription, :string
-    field :productid, :string
-    field :productndc, :string
-    field :sample_package, :string
-    field :startmarketingdate, :string
+    field(:endmarketingdate, :string)
+    field(:ndc_exclude_flag, :string)
+    field(:ndcpackagecode, :string)
+    field(:packagedescription, :string)
+    field(:productid, :string)
+    field(:productndc, :string)
+    field(:sample_package, :string)
+    field(:startmarketingdate, :string)
     # field :ndc_pruduct_id, :integer
 
     # timestamps()
